@@ -1,0 +1,161 @@
+[
+  {
+    "name": "Aged Raw Pu-erh (15 Year Sheng)",
+    "type": "pu-erh",
+    "origin": "Yunnan, China",
+    "description": "Premium aged raw pu-erh with exceptional neuroprotective properties. 15 years of aging creates unique compounds that support memory and cognitive longevity. Deep, complex flavor.",
+    "price_per_oz": 6.50,
+    "compounds": {
+      "caffeine": 65,
+      "l-theanine": 25,
+      "theabrownins": 180,
+      "GABA": 35,
+      "lovastatin": 8
+    },
+    "brewing": {
+      "temp_c": 95,
+      "time_sec": 180,
+      "amount_g": 6
+    },
+    "effects": [
+      { "effect": "memory", "intensity": 5, "onset_minutes": 40, "duration_minutes": 300 },
+      { "effect": "learning", "intensity": 5, "onset_minutes": 45, "duration_minutes": 280 },
+      { "effect": "mental_clarity", "intensity": 5, "onset_minutes": 30, "duration_minutes": 270 },
+      { "effect": "sustained_focus", "intensity": 4, "onset_minutes": 35, "duration_minutes": 300 },
+      { "effect": "antioxidant", "intensity": 5, "onset_minutes": 60, "duration_minutes": 360 },
+      { "effect": "grounding", "intensity": 4, "onset_minutes": 25, "duration_minutes": 240 }
+    ]
+  },
+  {
+    "name": "Ripe Pu-erh (10 Year Shou)",
+    "type": "pu-erh",
+    "origin": "Menghai, Yunnan, China",
+    "description": "Smooth, earthy ripe pu-erh with high GABA content from fermentation. Excellent for calm focus and stress resilience. Supports gut-brain axis.",
+    "price_per_oz": 4.20,
+    "compounds": {
+      "caffeine": 55,
+      "GABA": 45,
+      "theabrownins": 200,
+      "polysaccharides": 150,
+      "thearubigins": 120
+    },
+    "brewing": {
+      "temp_c": 100,
+      "time_sec": 240,
+      "amount_g": 7
+    },
+    "effects": [
+      { "effect": "calm", "intensity": 5, "onset_minutes": 20, "duration_minutes": 300 },
+      { "effect": "sustained_focus", "intensity": 4, "onset_minutes": 30, "duration_minutes": 270 },
+      { "effect": "stress_relief", "intensity": 5, "onset_minutes": 25, "duration_minutes": 280 },
+      { "effect": "grounding", "intensity": 5, "onset_minutes": 20, "duration_minutes": 300 },
+      { "effect": "digestion", "intensity": 4, "onset_minutes": 30, "duration_minutes": 240 },
+      { "effect": "mental_clarity", "intensity": 4, "onset_minutes": 35, "duration_minutes": 240 }
+    ]
+  },
+  {
+    "name": "Young Raw Pu-erh (3 Year Sheng)",
+    "type": "pu-erh",
+    "origin": "Yiwu, Yunnan, China",
+    "description": "Vibrant young sheng with potent catechins and alerting properties. Best for morning mental performance. Slightly astringent with sweet aftertaste.",
+    "price_per_oz": 3.80,
+    "compounds": {
+      "caffeine": 70,
+      "l-theanine": 28,
+      "EGCG": 110,
+      "theabrownins": 80
+    },
+    "brewing": {
+      "temp_c": 90,
+      "time_sec": 120,
+      "amount_g": 5
+    },
+    "effects": [
+      { "effect": "alertness", "intensity": 5, "onset_minutes": 15, "duration_minutes": 240 },
+      { "effect": "mental_clarity", "intensity": 5, "onset_minutes": 20, "duration_minutes": 250 },
+      { "effect": "energy_boost", "intensity": 4, "onset_minutes": 15, "duration_minutes": 240 },
+      { "effect": "sustained_focus", "intensity": 4, "onset_minutes": 25, "duration_minutes": 240 },
+      { "effect": "metabolism", "intensity": 4, "onset_minutes": 45, "duration_minutes": 300 }
+    ]
+  },
+  {
+    "name": "Palace Grade Shou Pu-erh",
+    "type": "pu-erh",
+    "origin": "Yunnan, China",
+    "description": "Premium grade ripe pu-erh using finest golden buds. Smooth, sweet, calming with excellent neuroprotective compounds. Perfect for all-day drinking.",
+    "price_per_oz": 5.50,
+    "compounds": {
+      "caffeine": 50,
+      "GABA": 50,
+      "theabrownins": 220,
+      "polysaccharides": 180,
+      "lovastatin": 5
+    },
+    "brewing": {
+      "temp_c": 100,
+      "time_sec": 300,
+      "amount_g": 6
+    },
+    "effects": [
+      { "effect": "calm", "intensity": 5, "onset_minutes": 18, "duration_minutes": 320 },
+      { "effect": "meditation", "intensity": 5, "onset_minutes": 25, "duration_minutes": 280 },
+      { "effect": "stress_relief", "intensity": 5, "onset_minutes": 20, "duration_minutes": 300 },
+      { "effect": "mental_clarity", "intensity": 4, "onset_minutes": 30, "duration_minutes": 260 },
+      { "effect": "comfort", "intensity": 5, "onset_minutes": 15, "duration_minutes": 300 },
+      { "effect": "antioxidant", "intensity": 5, "onset_minutes": 60, "duration_minutes": 360 }
+    ]
+  },
+  {
+    "name": "Ancient Tree Sheng Pu-erh",
+    "type": "pu-erh",
+    "origin": "Bulang Mountain, Yunnan, China",
+    "description": "Made from 200+ year old tea trees. Complex compound profile with exceptional cognitive benefits. Powerful, long-lasting effects on focus and memory.",
+    "price_per_oz": 8.00,
+    "compounds": {
+      "caffeine": 68,
+      "l-theanine": 30,
+      "theabrownins": 150,
+      "EGCG": 95,
+      "quercetin": 30,
+      "lovastatin": 10
+    },
+    "brewing": {
+      "temp_c": 95,
+      "time_sec": 150,
+      "amount_g": 5
+    },
+    "effects": [
+      { "effect": "memory", "intensity": 5, "onset_minutes": 35, "duration_minutes": 320 },
+      { "effect": "learning", "intensity": 5, "onset_minutes": 40, "duration_minutes": 300 },
+      { "effect": "sustained_focus", "intensity": 5, "onset_minutes": 30, "duration_minutes": 300 },
+      { "effect": "mental_clarity", "intensity": 5, "onset_minutes": 25, "duration_minutes": 280 },
+      { "effect": "alertness", "intensity": 4, "onset_minutes": 20, "duration_minutes": 260 },
+      { "effect": "antioxidant", "intensity": 5, "onset_minutes": 50, "duration_minutes": 400 }
+    ]
+  },
+  {
+    "name": "Mini Tuo Cha Shou Pu-erh",
+    "type": "pu-erh",
+    "origin": "Menghai, Yunnan, China",
+    "description": "Convenient compressed ripe pu-erh. Great for on-the-go cognitive support. Smooth, earthy, calming with digestive benefits.",
+    "price_per_oz": 2.50,
+    "compounds": {
+      "caffeine": 52,
+      "GABA": 40,
+      "theabrownins": 190,
+      "polysaccharides": 140
+    },
+    "brewing": {
+      "temp_c": 100,
+      "time_sec": 240,
+      "amount_g": 5
+    },
+    "effects": [
+      { "effect": "calm", "intensity": 4, "onset_minutes": 20, "duration_minutes": 280 },
+      { "effect": "sustained_focus", "intensity": 3, "onset_minutes": 30, "duration_minutes": 240 },
+      { "effect": "grounding", "intensity": 4, "onset_minutes": 25, "duration_minutes": 260 },
+      { "effect": "digestion", "intensity": 5, "onset_minutes": 30, "duration_minutes": 240 },
+      { "effect": "stress_relief", "intensity": 4, "onset_minutes": 25, "duration_minutes": 260 }
+    ]
+  }
+]

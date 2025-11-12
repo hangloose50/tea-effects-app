@@ -1,0 +1,34 @@
+{
+  "name": "tea-effects-app",
+  "version": "1.0.0",
+  "description": "AI-powered tea recommendation system with effects-based blending and RAG knowledge base",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev --workspace=packages/api\" \"npm run dev --workspace=packages/frontend\"",
+    "build": "npm run build --workspace=packages/api && npm run build --workspace=packages/frontend",
+    "start": "npm run start --workspace=packages/api",
+    "test": "npm run test --workspaces",
+    "lint": "npm run lint --workspaces",
+    "setup": "npm install && npm run setup:supabase && npm run seed",
+    "setup:supabase": "cd supabase && supabase db reset",
+    "seed": "npm run seed --workspace=packages/api"
+  },
+  "keywords": [
+    "tea",
+    "effects",
+    "ai",
+    "rag",
+    "mistral",
+    "health",
+    "wellness"
+  ],
+  "author": "Dustin",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "typescript": "^5.3.3"
+  }
+}

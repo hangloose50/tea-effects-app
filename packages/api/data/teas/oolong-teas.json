@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Tie Guan Yin (Iron Goddess)",
+    "type": "oolong",
+    "origin": "Anxi, Fujian, China",
+    "description": "Premium oolong with exceptional L-theanine content. Known for producing a calm, creative mental state. Floral, orchid-like aroma with smooth, buttery finish.",
+    "price_per_oz": 3.50,
+    "compounds": {
+      "caffeine": 45,
+      "l-theanine": 40,
+      "EGCG": 85,
+      "EGC": 35
+    },
+    "brewing": {
+      "temp_c": 90,
+      "time_sec": 180,
+      "amount_g": 5
+    },
+    "effects": [
+      { "effect": "sustained_focus", "intensity": 5, "onset_minutes": 30, "duration_minutes": 240 },
+      { "effect": "creativity", "intensity": 5, "onset_minutes": 45, "duration_minutes": 210 },
+      { "effect": "calm", "intensity": 4, "onset_minutes": 20, "duration_minutes": 240 },
+      { "effect": "mental_clarity", "intensity": 5, "onset_minutes": 30, "duration_minutes": 200 },
+      { "effect": "meditation", "intensity": 4, "onset_minutes": 25, "duration_minutes": 180 }
+    ]
+  },
+  {
+    "name": "Da Hong Pao (Big Red Robe)",
+    "type": "oolong",
+    "origin": "Wuyi Mountains, Fujian, China",
+    "description": "Legendary rock oolong with grounding, sustained energy. Higher oxidation provides robust flavor and steady cognitive enhancement. Mineral, roasted notes.",
+    "price_per_oz": 4.20,
+    "compounds": {
+      "caffeine": 55,
+      "l-theanine": 30,
+      "EGCG": 75,
+      "theobromine": 12
+    },
+    "brewing": {
+      "temp_c": 95,
+      "time_sec": 240,
+      "amount_g": 5
+    },
+    "effects": [
+      { "effect": "sustained_focus", "intensity": 5, "onset_minutes": 25, "duration_minutes": 270 },
+      { "effect": "energy_boost", "intensity": 4, "onset_minutes": 20, "duration_minutes": 240 },
+      { "effect": "grounding", "intensity": 5, "onset_minutes": 30, "duration_minutes": 240 },
+      { "effect": "mental_clarity", "intensity": 4, "onset_minutes": 25, "duration_minutes": 240 },
+      { "effect": "alertness", "intensity": 4, "onset_minutes": 15, "duration_minutes": 240 }
+    ]
+  },
+  {
+    "name": "Jin Xuan (Milk Oolong)",
+    "type": "oolong",
+    "origin": "Taiwan",
+    "description": "Creamy, naturally sweet oolong perfect for stress relief. Lower caffeine with high L-theanine creates a relaxed yet alert state. Ideal for afternoon work.",
+    "price_per_oz": 2.80,
+    "compounds": {
+      "caffeine": 35,
+      "l-theanine": 35,
+      "EGCG": 70,
+      "EGC": 30
+    },
+    "brewing": {
+      "temp_c": 85,
+      "time_sec": 180,
+      "amount_g": 4
+    },
+    "effects": [
+      { "effect": "calm", "intensity": 5, "onset_minutes": 20, "duration_minutes": 200 },
+      { "effect": "stress_relief", "intensity": 4, "onset_minutes": 25, "duration_minutes": 180 },
+      { "effect": "sustained_focus", "intensity": 3, "onset_minutes": 30, "duration_minutes": 180 },
+      { "effect": "comfort", "intensity": 5, "onset_minutes": 15, "duration_minutes": 200 },
+      { "effect": "mood_lift", "intensity": 3, "onset_minutes": 30, "duration_minutes": 150 }
+    ]
+  },
+  {
+    "name": "Oriental Beauty (Dong Fang Mei Ren)",
+    "type": "oolong",
+    "origin": "Taiwan",
+    "description": "Highly oxidized oolong with honey sweetness. Unique compound profile from insect-bitten leaves. Balanced energy with mood elevation.",
+    "price_per_oz": 5.00,
+    "compounds": {
+      "caffeine": 50,
+      "l-theanine": 32,
+      "EGCG": 65,
+      "quercetin": 25
+    },
+    "brewing": {
+      "temp_c": 90,
+      "time_sec": 200,
+      "amount_g": 5
+    },
+    "effects": [
+      { "effect": "mood_lift", "intensity": 5, "onset_minutes": 30, "duration_minutes": 210 },
+      { "effect": "mental_clarity", "intensity": 4, "onset_minutes": 25, "duration_minutes": 200 },
+      { "effect": "alertness", "intensity": 3, "onset_minutes": 20, "duration_minutes": 180 },
+      { "effect": "comfort", "intensity": 4, "onset_minutes": 20, "duration_minutes": 200 },
+      { "effect": "creativity", "intensity": 4, "onset_minutes": 40, "duration_minutes": 180 }
+    ]
+  },
+  {
+    "name": "Jade Oolong",
+    "type": "oolong",
+    "origin": "Taiwan",
+    "description": "Lightly oxidized, fresh and floral. Excellent for creative work and brainstorming sessions. High catechin content supports neuroplasticity.",
+    "price_per_oz": 3.20,
+    "compounds": {
+      "caffeine": 40,
+      "l-theanine": 38,
+      "EGCG": 95,
+      "EGC": 40
+    },
+    "brewing": {
+      "temp_c": 85,
+      "time_sec": 150,
+      "amount_g": 4
+    },
+    "effects": [
+      { "effect": "creativity", "intensity": 5, "onset_minutes": 35, "duration_minutes": 200 },
+      { "effect": "mental_clarity", "intensity": 4, "onset_minutes": 25, "duration_minutes": 190 },
+      { "effect": "calm", "intensity": 4, "onset_minutes": 20, "duration_minutes": 180 },
+      { "effect": "learning", "intensity": 4, "onset_minutes": 30, "duration_minutes": 180 },
+      { "effect": "meditation", "intensity": 3, "onset_minutes": 30, "duration_minutes": 150 }
+    ]
+  },
+  {
+    "name": "Dong Ding Oolong",
+    "type": "oolong",
+    "origin": "Nantou, Taiwan",
+    "description": "Medium-roasted oolong with balanced cognitive effects. Excellent all-day tea for sustained mental performance without overstimulation.",
+    "price_per_oz": 3.80,
+    "compounds": {
+      "caffeine": 48,
+      "l-theanine": 35,
+      "EGCG": 80,
+      "theobromine": 10
+    },
+    "brewing": {
+      "temp_c": 90,
+      "time_sec": 200,
+      "amount_g": 5
+    },
+    "effects": [
+      { "effect": "sustained_focus", "intensity": 4, "onset_minutes": 25, "duration_minutes": 240 },
+      { "effect": "alertness", "intensity": 4, "onset_minutes": 20, "duration_minutes": 220 },
+      { "effect": "calm", "intensity": 3, "onset_minutes": 25, "duration_minutes": 200 },
+      { "effect": "energy_boost", "intensity": 3, "onset_minutes": 20, "duration_minutes": 210 },
+      { "effect": "grounding", "intensity": 4, "onset_minutes": 30, "duration_minutes": 200 }
+    ]
+  }
+]

@@ -1,0 +1,93 @@
+[
+  {
+    "name": "Chamomile",
+    "type": "herbal",
+    "origin": "Egypt",
+    "description": "Classic sleep and relaxation herb. Binds to GABA receptors for calming effect. Caffeine-free, perfect for evening wind-down.",
+    "price_per_oz": 1.50,
+    "compounds": {
+      "caffeine": 0,
+      "apigenin": 30,
+      "quercetin": 15
+    },
+    "brewing": {
+      "temp_c": 100,
+      "time_sec": 300,
+      "amount_g": 3
+    },
+    "effects": [
+      { "effect": "sleep_prep", "intensity": 5, "onset_minutes": 30, "duration_minutes": 180 },
+      { "effect": "relaxation", "intensity": 5, "onset_minutes": 20, "duration_minutes": 200 },
+      { "effect": "calm", "intensity": 4, "onset_minutes": 25, "duration_minutes": 180 },
+      { "effect": "stress_relief", "intensity": 4, "onset_minutes": 25, "duration_minutes": 160 },
+      { "effect": "digestion", "intensity": 3, "onset_minutes": 30, "duration_minutes": 150 }
+    ]
+  },
+  {
+    "name": "Peppermint",
+    "type": "herbal",
+    "origin": "USA",
+    "description": "Refreshing herb that promotes mental clarity and digestive comfort. Caffeine-free. Excellent blending ingredient.",
+    "price_per_oz": 1.20,
+    "compounds": {
+      "caffeine": 0,
+      "menthol": 40
+    },
+    "brewing": {
+      "temp_c": 100,
+      "time_sec": 300,
+      "amount_g": 2
+    },
+    "effects": [
+      { "effect": "mental_clarity", "intensity": 3, "onset_minutes": 15, "duration_minutes": 120 },
+      { "effect": "digestion", "intensity": 5, "onset_minutes": 20, "duration_minutes": 180 },
+      { "effect": "alertness", "intensity": 2, "onset_minutes": 15, "duration_minutes": 90 },
+      { "effect": "comfort", "intensity": 3, "onset_minutes": 20, "duration_minutes": 150 }
+    ]
+  },
+  {
+    "name": "Holy Basil (Tulsi)",
+    "type": "herbal",
+    "origin": "India",
+    "description": "Adaptogenic herb that reduces cortisol and supports stress resilience. Caffeine-free. Excellent for anxiety management.",
+    "price_per_oz": 2.00,
+    "compounds": {
+      "caffeine": 0,
+      "quercetin": 20
+    },
+    "brewing": {
+      "temp_c": 100,
+      "time_sec": 300,
+      "amount_g": 3
+    },
+    "effects": [
+      { "effect": "stress_relief", "intensity": 5, "onset_minutes": 35, "duration_minutes": 240 },
+      { "effect": "calm", "intensity": 4, "onset_minutes": 30, "duration_minutes": 220 },
+      { "effect": "grounding", "intensity": 4, "onset_minutes": 25, "duration_minutes": 200 },
+      { "effect": "mood_lift", "intensity": 3, "onset_minutes": 40, "duration_minutes": 180 },
+      { "effect": "immune", "intensity": 3, "onset_minutes": 60, "duration_minutes": 300 }
+    ]
+  },
+  {
+    "name": "Lemon Balm",
+    "type": "herbal",
+    "origin": "Mediterranean",
+    "description": "Gentle nervine that reduces anxiety and improves mood. Caffeine-free. Excellent for afternoon relaxation without drowsiness.",
+    "price_per_oz": 1.80,
+    "compounds": {
+      "caffeine": 0,
+      "quercetin": 12
+    },
+    "brewing": {
+      "temp_c": 100,
+      "time_sec": 300,
+      "amount_g": 3
+    },
+    "effects": [
+      { "effect": "calm", "intensity": 4, "onset_minutes": 25, "duration_minutes": 180 },
+      { "effect": "stress_relief", "intensity": 4, "onset_minutes": 30, "duration_minutes": 190 },
+      { "effect": "mood_lift", "intensity": 4, "onset_minutes": 35, "duration_minutes": 200 },
+      { "effect": "relaxation", "intensity": 3, "onset_minutes": 30, "duration_minutes": 170 }
+    ]
+  }
+]

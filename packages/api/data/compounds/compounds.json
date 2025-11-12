@@ -1,0 +1,107 @@
+[
+  {
+    "name": "caffeine",
+    "chemical_formula": "C8H10N4O2",
+    "mechanism": "Adenosine receptor antagonist - blocks tiredness signals and increases alertness",
+    "half_life_minutes": 300,
+    "safe_daily_limit_mg": 400
+  },
+  {
+    "name": "l-theanine",
+    "chemical_formula": "C7H14N2O3",
+    "mechanism": "Increases alpha brain waves, promotes GABA, serotonin, and dopamine production",
+    "half_life_minutes": 180,
+    "safe_daily_limit_mg": 600
+  },
+  {
+    "name": "EGCG",
+    "chemical_formula": "C22H18O11",
+    "mechanism": "Powerful antioxidant, supports neuroplasticity and BDNF production",
+    "half_life_minutes": 240,
+    "safe_daily_limit_mg": 800
+  },
+  {
+    "name": "ECG",
+    "chemical_formula": "C22H18O10",
+    "mechanism": "Catechin with antioxidant and anti-inflammatory properties",
+    "half_life_minutes": 240,
+    "safe_daily_limit_mg": 500
+  },
+  {
+    "name": "EGC",
+    "chemical_formula": "C15H14O7",
+    "mechanism": "Antioxidant catechin supporting cardiovascular health",
+    "half_life_minutes": 180,
+    "safe_daily_limit_mg": 600
+  },
+  {
+    "name": "theaflavins",
+    "chemical_formula": "C29H24O12",
+    "mechanism": "Unique to black/pu-erh tea, crosses blood-brain barrier, neuroprotective",
+    "half_life_minutes": 240,
+    "safe_daily_limit_mg": 300
+  },
+  {
+    "name": "thearubigins",
+    "chemical_formula": "Variable",
+    "mechanism": "Complex polymeric compounds in fermented teas, support gut-brain axis",
+    "half_life_minutes": 300,
+    "safe_daily_limit_mg": 500
+  },
+  {
+    "name": "theabrownins",
+    "chemical_formula": "Variable",
+    "mechanism": "Unique to pu-erh, neuroprotective and anti-inflammatory",
+    "half_life_minutes": 360,
+    "safe_daily_limit_mg": 400
+  },
+  {
+    "name": "GABA",
+    "chemical_formula": "C4H9NO2",
+    "mechanism": "Primary inhibitory neurotransmitter, promotes calm and reduces anxiety",
+    "half_life_minutes": 90,
+    "safe_daily_limit_mg": 750
+  },
+  {
+    "name": "theobromine",
+    "chemical_formula": "C7H8N4O2",
+    "mechanism": "Mild stimulant, smooth energy without jitters, vasodilator",
+    "half_life_minutes": 420,
+    "safe_daily_limit_mg": 300
+  },
+  {
+    "name": "polysaccharides",
+    "chemical_formula": "Variable",
+    "mechanism": "Support gut health and immune function, anti-inflammatory",
+    "half_life_minutes": 240,
+    "safe_daily_limit_mg": 1000
+  },
+  {
+    "name": "quercetin",
+    "chemical_formula": "C15H10O7",
+    "mechanism": "Flavonoid antioxidant with anti-inflammatory properties",
+    "half_life_minutes": 180,
+    "safe_daily_limit_mg": 1000
+  },
+  {
+    "name": "menthol",
+    "chemical_formula": "C10H20O",
+    "mechanism": "Cooling sensation, mental clarity, digestive comfort",
+    "half_life_minutes": 120,
+    "safe_daily_limit_mg": 100
+  },
+  {
+    "name": "apigenin",
+    "chemical_formula": "C15H10O5",
+    "mechanism": "Binds to GABA receptors, promotes relaxation and sleep",
+    "half_life_minutes": 180,
+    "safe_daily_limit_mg": 50
+  },
+  {
+    "name": "lovastatin",
+    "chemical_formula": "C24H36O5",
+    "mechanism": "Naturally occurring statin in aged pu-erh, improves cerebral blood flow",
+    "half_life_minutes": 180,
+    "safe_daily_limit_mg": 20
+  }
+]

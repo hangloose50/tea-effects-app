@@ -1,0 +1,116 @@
+[
+  {
+    "name": "alertness",
+    "category": "mental",
+    "description": "Increased wakefulness and mental clarity",
+    "icon": "⚡"
+  },
+  {
+    "name": "sustained_focus",
+    "category": "mental",
+    "description": "Extended periods of concentration without mental fatigue",
+    "icon": "🎯"
+  },
+  {
+    "name": "mental_clarity",
+    "category": "mental",
+    "description": "Clear thinking and improved decision making",
+    "icon": "💡"
+  },
+  {
+    "name": "creativity",
+    "category": "mental",
+    "description": "Enhanced divergent thinking and pattern recognition",
+    "icon": "🎨"
+  },
+  {
+    "name": "memory",
+    "category": "mental",
+    "description": "Improved encoding and recall of information",
+    "icon": "🧠"
+  },
+  {
+    "name": "learning",
+    "category": "mental",
+    "description": "Enhanced information processing and retention",
+    "icon": "📚"
+  },
+  {
+    "name": "energy_boost",
+    "category": "physical",
+    "description": "Increased physical energy and reduced fatigue",
+    "icon": "⚡"
+  },
+  {
+    "name": "metabolism",
+    "category": "physical",
+    "description": "Enhanced metabolic rate and fat oxidation",
+    "icon": "🔥"
+  },
+  {
+    "name": "digestion",
+    "category": "physical",
+    "description": "Improved digestive comfort and gut health",
+    "icon": "🌿"
+  },
+  {
+    "name": "immune",
+    "category": "physical",
+    "description": "Strengthened immune system function",
+    "icon": "🛡️"
+  },
+  {
+    "name": "antioxidant",
+    "category": "physical",
+    "description": "Protection against oxidative stress and cellular damage",
+    "icon": "✨"
+  },
+  {
+    "name": "calm",
+    "category": "emotional",
+    "description": "Reduced anxiety and mental tension",
+    "icon": "😌"
+  },
+  {
+    "name": "relaxation",
+    "category": "emotional",
+    "description": "Gentle unwinding and stress relief",
+    "icon": "🧘"
+  },
+  {
+    "name": "stress_relief",
+    "category": "emotional",
+    "description": "Active reduction of stress hormones and tension",
+    "icon": "🌊"
+  },
+  {
+    "name": "mood_lift",
+    "category": "emotional",
+    "description": "Gentle elevation of mood and well-being",
+    "icon": "🌈"
+  },
+  {
+    "name": "sleep_prep",
+    "category": "emotional",
+    "description": "Preparation for restful sleep",
+    "icon": "💤"
+  },
+  {
+    "name": "meditation",
+    "category": "emotional",
+    "description": "Enhanced mindfulness and present-moment awareness",
+    "icon": "🧘‍♂️"
+  },
+  {
+    "name": "comfort",
+    "category": "emotional",
+    "description": "Emotional warmth and sense of well-being",
+    "icon": "☕"
+  },
+  {
+    "name": "grounding",
+    "category": "emotional",
+    "description": "Centered, present feeling of stability",
+    "icon": "🌳"
+  }
+]

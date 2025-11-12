@@ -1,0 +1,103 @@
+[
+  {
+    "name": "Ceremonial Matcha",
+    "type": "green",
+    "origin": "Uji, Japan",
+    "description": "Premium stone-ground matcha with highest L-theanine content. Whisked whole-leaf tea provides maximum cognitive benefits. Umami-rich, vibrant green.",
+    "price_per_oz": 12.00,
+    "compounds": {
+      "caffeine": 70,
+      "l-theanine": 45,
+      "EGCG": 130,
+      "EGC": 45
+    },
+    "brewing": {
+      "temp_c": 70,
+      "time_sec": 60,
+      "amount_g": 2
+    },
+    "effects": [
+      { "effect": "sustained_focus", "intensity": 5, "onset_minutes": 25, "duration_minutes": 270 },
+      { "effect": "calm", "intensity": 5, "onset_minutes": 20, "duration_minutes": 250 },
+      { "effect": "mental_clarity", "intensity": 5, "onset_minutes": 20, "duration_minutes": 260 },
+      { "effect": "alertness", "intensity": 4, "onset_minutes": 15, "duration_minutes": 240 },
+      { "effect": "meditation", "intensity": 5, "onset_minutes": 30, "duration_minutes": 220 },
+      { "effect": "antioxidant", "intensity": 5, "onset_minutes": 45, "duration_minutes": 360 }
+    ]
+  },
+  {
+    "name": "Sencha",
+    "type": "green",
+    "origin": "Shizuoka, Japan",
+    "description": "Classic Japanese green tea with excellent L-theanine:caffeine ratio. Perfect for work and study. Grassy, refreshing with slight astringency.",
+    "price_per_oz": 2.80,
+    "compounds": {
+      "caffeine": 30,
+      "l-theanine": 25,
+      "EGCG": 90,
+      "EGC": 35
+    },
+    "brewing": {
+      "temp_c": 70,
+      "time_sec": 120,
+      "amount_g": 3
+    },
+    "effects": [
+      { "effect": "sustained_focus", "intensity": 4, "onset_minutes": 30, "duration_minutes": 210 },
+      { "effect": "calm", "intensity": 4, "onset_minutes": 20, "duration_minutes": 200 },
+      { "effect": "mental_clarity", "intensity": 4, "onset_minutes": 25, "duration_minutes": 200 },
+      { "effect": "alertness", "intensity": 3, "onset_minutes": 20, "duration_minutes": 180 },
+      { "effect": "metabolism", "intensity": 3, "onset_minutes": 60, "duration_minutes": 240 }
+    ]
+  },
+  {
+    "name": "Gyokuro",
+    "type": "green",
+    "origin": "Kyoto, Japan",
+    "description": "Shade-grown premium green tea with very high L-theanine. Produces exceptional calm-focus state. Sweet, umami-rich flavor.",
+    "price_per_oz": 8.50,
+    "compounds": {
+      "caffeine": 40,
+      "l-theanine": 50,
+      "EGCG": 100,
+      "EGC": 40
+    },
+    "brewing": {
+      "temp_c": 60,
+      "time_sec": 120,
+      "amount_g": 3
+    },
+    "effects": [
+      { "effect": "calm", "intensity": 5, "onset_minutes": 18, "duration_minutes": 240 },
+      { "effect": "sustained_focus", "intensity": 5, "onset_minutes": 25, "duration_minutes": 260 },
+      { "effect": "mental_clarity", "intensity": 5, "onset_minutes": 22, "duration_minutes": 240 },
+      { "effect": "creativity", "intensity": 4, "onset_minutes": 35, "duration_minutes": 200 },
+      { "effect": "meditation", "intensity": 5, "onset_minutes": 25, "duration_minutes": 220 }
+    ]
+  },
+  {
+    "name": "Longjing (Dragon Well)",
+    "type": "green",
+    "origin": "Hangzhou, China",
+    "description": "Famous Chinese green tea with balanced effects. Excellent for afternoon productivity. Chestnut-like flavor, smooth finish.",
+    "price_per_oz": 4.50,
+    "compounds": {
+      "caffeine": 35,
+      "l-theanine": 28,
+      "EGCG": 85,
+      "EGC": 32
+    },
+    "brewing": {
+      "temp_c": 75,
+      "time_sec": 150,
+      "amount_g": 3
+    },
+    "effects": [
+      { "effect": "mental_clarity", "intensity": 4, "onset_minutes": 25, "duration_minutes": 220 },
+      { "effect": "sustained_focus", "intensity": 4, "onset_minutes": 28, "duration_minutes": 200 },
+      { "effect": "calm", "intensity": 3, "onset_minutes": 22, "duration_minutes": 190 },
+      { "effect": "alertness", "intensity": 3, "onset_minutes": 20, "duration_minutes": 180 },
+      { "effect": "antioxidant", "intensity": 4, "onset_minutes": 50, "duration_minutes": 300 }
+    ]
+  }
+]
