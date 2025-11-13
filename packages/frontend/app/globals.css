@@ -1,3 +1,247 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Web Fonts - Preload for performance */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@layer base {
+  /* Root styling */
+  html {
+    @apply antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply font-sans text-base text-tea-brown-800 bg-tea-brown-50;
+  }
+
+  /* Heading defaults with elegant serif */
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif font-semibold text-tea-brown-900;
+  }
+
+  h1 {
+    @apply text-4xl md:text-5xl;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl;
+  }
+
+  h3 {
+    @apply text-2xl md:text-3xl;
+  }
+
+  h4 {
+    @apply text-xl md:text-2xl;
+  }
+
+  /* Paragraph spacing */
+  p {
+    @apply mb-4 leading-relaxed;
+  }
+
+  /* Link styling */
+  a {
+    @apply text-tea-sage-600 transition-colors duration-200 hover:text-tea-sage-700 focus:outline-none focus:ring-2 focus:ring-tea-sage-400 focus:ring-offset-2 rounded-sm;
+  }
+
+  /* Focus visible for accessibility */
+  *:focus-visible {
+    @apply outline-none ring-2 ring-tea-sage-400 ring-offset-2;
+  }
+
+  /* Selection styling */
+  ::selection {
+    @apply bg-tea-sage-200 text-tea-brown-900;
+  }
+
+  /* Scrollbar styling for webkit browsers */
+  ::-webkit-scrollbar {
+    @apply w-2 h-2;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-tea-brown-100;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-tea-brown-300 rounded-full hover:bg-tea-brown-400;
+  }
+}
+
+@layer components {
+  /* Button base styles */
+  .btn {
+    @apply inline-flex items-center justify-center px-6 py-3 rounded-md font-sans font-medium tracking-wide transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 active:translate-y-px;
+  }
+
+  .btn-primary {
+    @apply btn bg-tea-brown-600 text-white shadow-sm hover:bg-tea-brown-700 hover:shadow-md focus:ring-tea-brown-500;
+  }
+
+  .btn-secondary {
+    @apply btn bg-tea-sage-100 text-tea-sage-800 border border-tea-sage-300 hover:bg-tea-sage-200 hover:border-tea-sage-400 focus:ring-tea-sage-400;
+  }
+
+  .btn-ghost {
+    @apply btn text-tea-brown-700 hover:bg-tea-brown-100 focus:ring-tea-brown-300;
+  }
+
+  /* Card base styles */
+  .card {
+    @apply rounded-lg bg-tea-brown-100 border border-tea-brown-200 p-6 shadow transition-all duration-300;
+  }
+
+  .card-hover {
+    @apply card hover:shadow-md hover:border-tea-sage-500 hover:-translate-y-1;
+  }
+
+  .card-organic {
+    @apply card relative overflow-hidden;
+  }
+
+  .card-organic::before {
+    content: '';
+    @apply absolute inset-0 opacity-5 bg-tea-leaf-pattern pointer-events-none;
+  }
+
+  /* Input base styles */
+  .input {
+    @apply w-full px-4 py-3 rounded-md bg-white border border-tea-brown-200 font-sans text-base text-tea-brown-800 placeholder-tea-clay-400 shadow-inner transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-tea-sage-400 focus:border-tea-sage-400;
+  }
+
+  /* Badge styles */
+  .badge {
+    @apply inline-flex items-center px-3 py-1 rounded-full text-xs font-medium;
+  }
+
+  .badge-sage {
+    @apply badge bg-tea-sage-100 text-tea-sage-700;
+  }
+
+  .badge-amber {
+    @apply badge bg-tea-amber-100 text-tea-amber-700;
+  }
+
+  .badge-clay {
+    @apply badge bg-tea-clay-100 text-tea-clay-700;
+  }
+
+  /* Loading spinner */
+  .spinner {
+    @apply inline-block w-8 h-8 border-4 border-tea-brown-200 border-t-tea-sage-600 rounded-full animate-spin;
+  }
+}
+
+@layer utilities {
+  /* Organic texture overlays */
+  .texture-tea-leaf {
+    @apply bg-tea-leaf-pattern;
+  }
+
+  .texture-watercolor {
+    @apply bg-watercolor-overlay;
+  }
+
+  .texture-paper {
+    @apply bg-paper-texture;
+  }
+
+  /* Text gradient utilities */
+  .text-gradient-warm {
+    @apply bg-gradient-to-r from-tea-brown-700 to-tea-amber-600 bg-clip-text text-transparent;
+  }
+
+  .text-gradient-sage {
+    @apply bg-gradient-to-r from-tea-sage-700 to-tea-sage-500 bg-clip-text text-transparent;
+  }
+
+  /* Backdrop blur utilities */
+  .backdrop-organic {
+    backdrop-filter: blur(8px) saturate(150%);
+    @apply bg-tea-brown-50/80;
+  }
+
+  /* Custom shadow utilities for organic feel */
+  .shadow-organic {
+    box-shadow:
+      0 2px 8px rgba(43, 57, 32, 0.08),
+      0 1px 3px rgba(43, 57, 32, 0.06),
+      inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+
+  .shadow-organic-lg {
+    box-shadow:
+      0 8px 24px rgba(43, 57, 32, 0.15),
+      0 4px 8px rgba(43, 57, 32, 0.1),
+      inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+
+  /* Transition utilities */
+  .transition-organic {
+    @apply transition-all duration-normal ease-organic;
+  }
+
+  .transition-tea {
+    @apply transition-all duration-normal ease-tea;
+  }
+
+  /* Hover lift effect */
+  .hover-lift {
+    @apply transition-organic hover:-translate-y-1 hover:shadow-md;
+  }
+
+  /* Screen reader only utility */
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+  }
+}
+
+/* Reduced motion support for accessibility */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .dark body {
+    @apply bg-tea-dark-bg text-tea-dark-text;
+  }
+
+  .dark .card {
+    @apply bg-tea-dark-surface border-tea-dark-border;
+  }
+
+  .dark .input {
+    @apply bg-tea-dark-surface border-tea-dark-border text-tea-dark-text placeholder-tea-dark-muted;
+  }
+}
+
+/* Print styles */
+@media print {
+  body {
+    @apply text-black bg-white;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+}
