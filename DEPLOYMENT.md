@@ -96,16 +96,7 @@ CORS_ORIGIN=https://your-vercel-app.vercel.app
 
 ### 2.3 Deploy Ollama on Railway (Optional)
 
-Option A: Separate Railway Service
-1. Add new service to project
-2. Use Docker image: `ollama/ollama`
-3. Expose port 11434
-4. Pull Mistral model on start:
-   ```bash
-   ollama pull mistral
-   ```
-
-Option B: Use External LLM API (easier)
+Use External LLM API (recommended):
 - Use Replicate, Together.ai, or similar
 - Update `OLLAMA_URL` to point to external API
 - No need to run Ollama yourself

@@ -3,22 +3,6 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
-interface OllamaGenerateRequest {
-  model: string;
-  prompt: string;
-  stream?: boolean;
-  options?: {
-    temperature?: number;
-    top_p?: number;
-    top_k?: number;
-  };
-}
-
-interface OllamaEmbeddingRequest {
-  model: string;
-  prompt: string;
-}
-
 interface OllamaGenerateResponse {
   model: string;
   created_at: string;

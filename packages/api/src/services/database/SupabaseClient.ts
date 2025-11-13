@@ -29,8 +29,7 @@ class SupabaseService {
   // Vector similarity search
   static async vectorSearch(
     embedding: number[],
-    limit: number = 5,
-    filters?: Record<string, any>
+    limit: number = 5
   ) {
     const supabase = this.getInstance();
 
