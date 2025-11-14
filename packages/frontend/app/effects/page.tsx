@@ -172,9 +172,7 @@ function EffectsContent() {
     setUsingFallback(false);
 
     try {
-      const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001';
-
-      const response = await axios.post(`${apiUrl}/api/recommendations`, {
+      const response = await axios.post('/api/recommendations', {
         desired_effect: effect,
         intensity_needed: 4,
         time_of_day: timeOfDay,

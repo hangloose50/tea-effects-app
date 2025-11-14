@@ -28,8 +28,7 @@ export default function TeasPage() {
 
       // Try to fetch from API
       try {
-        const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001';
-        const response = await axios.get(`${apiUrl}/api/teas`);
+        const response = await axios.get('/api/teas');
         const fetchedTeas = response.data.teas || [];
 
         // Save to IndexedDB for offline access
