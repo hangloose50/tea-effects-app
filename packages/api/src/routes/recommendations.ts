@@ -9,7 +9,7 @@ const effectEngine = new EffectEngine();
  * POST /api/recommendations
  * Get personalized tea recommendations based on desired effects
  */
-router.post('/', async (req: Request, res: Response) => {
+router.post('/', async (_req: Request, res: Response) => {
   try {
     const request: RecommendationRequest = req.body;
 
@@ -72,7 +72,7 @@ router.get('/effects', async (req: Request, res: Response) => {
       'sleep_prep'
     ];
 
-    res.json({
+    return res.json({
       success: true,
       effects
     });
