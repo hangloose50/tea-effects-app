@@ -4,7 +4,7 @@ import RAGService from '../services/rag/RAGService';
 const router = Router();
 const rag = new RAGService();
 
-router.post('/query', async (req, res) => {
+router.post('/query', async (_req, res) => {
   try {
     const { query, filters, limit } = req.body;
 
@@ -14,7 +14,7 @@ router.post('/query', async (req, res) => {
 
     const result = await rag.query(query, filters, limit);
 
-    res.json({ success: true, ...result });
+    return res.json({ success: true, ...result });
   } catch (error: any) {
     res.status(500).json({ error: error.message });
   }
