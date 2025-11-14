@@ -4,7 +4,7 @@ import SupabaseService from '../services/database/SupabaseClient';
 const router = Router();
 const supabase = SupabaseService.getInstance();
 
-router.get('/', async (req, res) => {
+router.get('/', async (_req, res) => {
   try {
     const { data, error } = await supabase.from('effects').select('*');
     if (error) throw error;
