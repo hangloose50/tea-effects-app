@@ -9,14 +9,12 @@ export async function GET() {
       .select(`
         *,
         tea_compounds (
-          amount_mg,
-          compounds (*)
+          amount_mg_per_cup,
+          compounds (name)
         ),
         tea_effects (
           intensity,
-          onset_minutes,
-          duration_minutes,
-          effects (*)
+          effects (name, category)
         )
       `)
       .order('name');
@@ -30,14 +28,13 @@ export async function GET() {
     const formattedTeas = teas?.map(tea => ({
       ...tea,
       compounds: tea.tea_compounds?.map((tc: any) => ({
-        ...tc.compounds,
-        amount_mg: tc.amount_mg
+        name: tc.compounds?.name,
+        amount_mg: tc.amount_mg_per_cup
       })) || [],
       effects: tea.tea_effects?.map((te: any) => ({
-        ...te.effects,
-        intensity: te.intensity,
-        onset_minutes: te.onset_minutes,
-        duration_minutes: te.duration_minutes
+        name: te.effects?.name,
+        category: te.effects?.category,
+        intensity: te.intensity
       })) || []
     }));
 

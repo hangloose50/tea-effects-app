@@ -162,14 +162,12 @@ export async function POST(request: NextRequest) {
         .select(`
           *,
           tea_compounds (
-            amount_mg,
-            compounds (*)
+            amount_mg_per_cup,
+            compounds (name)
           ),
           tea_effects (
             intensity,
-            onset_minutes,
-            duration_minutes,
-            effects (*)
+            effects (name, category)
           )
         `)
         .order('name')
@@ -182,7 +180,7 @@ export async function POST(request: NextRequest) {
             ...tea,
             compounds: tea.tea_compounds?.map((tc: any) => ({
               name: tc.compounds?.name,
-              amount_mg: tc.amount_mg
+              amount_mg: tc.amount_mg_per_cup
             })) || []
           },
           reasoning: `Selected based on ${desired_effect} effect and ${time_of_day} timing`,
@@ -192,8 +190,8 @@ export async function POST(request: NextRequest) {
             amount_g: 3
           },
           compound_breakdown: {
-            caffeine_mg: tea.tea_compounds?.find((tc: any) => tc.compounds?.name === 'caffeine')?.amount_mg || 0,
-            l_theanine_mg: tea.tea_compounds?.find((tc: any) => tc.compounds?.name === 'l-theanine')?.amount_mg || 0
+            caffeine_mg: tea.tea_compounds?.find((tc: any) => tc.compounds?.name === 'caffeine')?.amount_mg_per_cup || 0,
+            l_theanine_mg: tea.tea_compounds?.find((tc: any) => tc.compounds?.name === 'l-theanine')?.amount_mg_per_cup || 0
           }
         }));
 
