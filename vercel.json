@@ -1,0 +1,9 @@
+{
+  "rootDirectory": "packages/frontend",
+  "framework": "nextjs",
+  "functions": {
+    "app/api/*/route.ts": {
+      "maxDuration": 10
+    }
+  }
+}
