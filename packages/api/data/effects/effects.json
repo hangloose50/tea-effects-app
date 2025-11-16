@@ -3,114 +3,528 @@
     "name": "alertness",
     "category": "mental",
     "description": "Increased wakefulness and mental clarity",
-    "icon": "⚡"
+    "icon": "⚡",
+    "onset_range_min": 5,
+    "onset_range_max": 25,
+    "duration_range_min": 80,
+    "duration_range_max": 280,
+    "measurement_protocol": "Psychomotor Vigilance Task (PVT) and resting heart rate at baseline, 20, 120 min",
+    "research_support": "strong"
   },
   {
     "name": "sustained_focus",
     "category": "mental",
     "description": "Extended periods of concentration without mental fatigue",
-    "icon": "🎯"
+    "icon": "🎯",
+    "onset_range_min": 16,
+    "onset_range_max": 40,
+    "duration_range_min": 150,
+    "duration_range_max": 320,
+    "measurement_protocol": "45-minute Continuous Performance Task accuracy with EEG theta/beta ratio",
+    "research_support": "strong"
   },
   {
     "name": "mental_clarity",
     "category": "mental",
     "description": "Clear thinking and improved decision making",
-    "icon": "💡"
+    "icon": "💡",
+    "onset_range_min": 13,
+    "onset_range_max": 40,
+    "duration_range_min": 110,
+    "duration_range_max": 300,
+    "measurement_protocol": "Stroop + Trail Making B completion times",
+    "research_support": "strong"
   },
   {
     "name": "creativity",
     "category": "mental",
     "description": "Enhanced divergent thinking and pattern recognition",
-    "icon": "🎨"
+    "icon": "🎨",
+    "onset_range_min": 20,
+    "onset_range_max": 50,
+    "duration_range_min": 120,
+    "duration_range_max": 240,
+    "measurement_protocol": "Alternative Uses Task fluency and Remote Associates Test accuracy",
+    "research_support": "moderate"
   },
   {
     "name": "memory",
     "category": "mental",
     "description": "Improved encoding and recall of information",
-    "icon": "🧠"
+    "icon": "🧠",
+    "onset_range_min": 25,
+    "onset_range_max": 50,
+    "duration_range_min": 180,
+    "duration_range_max": 420,
+    "measurement_protocol": "Rey Auditory Verbal Learning Test immediate recall",
+    "research_support": "strong"
   },
   {
     "name": "learning",
     "category": "mental",
     "description": "Enhanced information processing and retention",
-    "icon": "📚"
+    "icon": "📚",
+    "onset_range_min": 25,
+    "onset_range_max": 60,
+    "duration_range_min": 170,
+    "duration_range_max": 450,
+    "measurement_protocol": "Paired-associate learning accuracy over 6 trials",
+    "research_support": "moderate"
   },
   {
     "name": "energy_boost",
     "category": "physical",
     "description": "Increased physical energy and reduced fatigue",
-    "icon": "⚡"
+    "icon": "⚡",
+    "onset_range_min": 6,
+    "onset_range_max": 25,
+    "duration_range_min": 150,
+    "duration_range_max": 270,
+    "measurement_protocol": "Profile of Mood States (POMS) fatigue subscale + RPE during cycling",
+    "research_support": "strong"
   },
   {
     "name": "metabolism",
     "category": "physical",
     "description": "Enhanced metabolic rate and fat oxidation",
-    "icon": "🔥"
+    "icon": "🔥",
+    "onset_range_min": 25,
+    "onset_range_max": 70,
+    "duration_range_min": 120,
+    "duration_range_max": 360,
+    "measurement_protocol": "Resting energy expenditure via indirect calorimetry (metabolic cart)",
+    "research_support": "moderate"
   },
   {
     "name": "digestion",
     "category": "physical",
     "description": "Improved digestive comfort and gut health",
-    "icon": "🌿"
+    "icon": "🌿",
+    "onset_range_min": 15,
+    "onset_range_max": 45,
+    "duration_range_min": 120,
+    "duration_range_max": 270,
+    "measurement_protocol": "GI comfort Likert scale and bloating score every 30 min",
+    "research_support": "moderate"
   },
   {
     "name": "immune",
     "category": "physical",
     "description": "Strengthened immune system function",
-    "icon": "🛡️"
+    "icon": "🛡️",
+    "onset_range_min": 45,
+    "onset_range_max": 180,
+    "duration_range_min": 240,
+    "duration_range_max": 720,
+    "measurement_protocol": "Salivary IgA and lymphocyte count 4h post ingestion",
+    "research_support": "moderate"
   },
   {
     "name": "antioxidant",
     "category": "physical",
     "description": "Protection against oxidative stress and cellular damage",
-    "icon": "✨"
+    "icon": "✨",
+    "onset_range_min": 40,
+    "onset_range_max": 90,
+    "duration_range_min": 240,
+    "duration_range_max": 720,
+    "measurement_protocol": "Plasma ORAC and 8-OHdG biomarkers",
+    "research_support": "strong"
   },
   {
     "name": "calm",
     "category": "emotional",
     "description": "Reduced anxiety and mental tension",
-    "icon": "😌"
+    "icon": "😌",
+    "onset_range_min": 15,
+    "onset_range_max": 35,
+    "duration_range_min": 120,
+    "duration_range_max": 340,
+    "measurement_protocol": "State-Trait Anxiety Inventory (STAI-S) + HRV RMSSD",
+    "research_support": "strong"
   },
   {
     "name": "relaxation",
     "category": "emotional",
     "description": "Gentle unwinding and stress relief",
-    "icon": "🧘"
+    "icon": "🧘",
+    "onset_range_min": 13,
+    "onset_range_max": 40,
+    "duration_range_min": 120,
+    "duration_range_max": 250,
+    "measurement_protocol": "Visual Analog Scale (relaxation) and surface EMG of trapezius",
+    "research_support": "moderate"
   },
   {
     "name": "stress_relief",
     "category": "emotional",
     "description": "Active reduction of stress hormones and tension",
-    "icon": "🌊"
+    "icon": "🌊",
+    "onset_range_min": 18,
+    "onset_range_max": 40,
+    "duration_range_min": 150,
+    "duration_range_max": 320,
+    "measurement_protocol": "Salivary cortisol and NASA-TLX workload ratings",
+    "research_support": "moderate"
   },
   {
     "name": "mood_lift",
     "category": "emotional",
     "description": "Gentle elevation of mood and well-being",
-    "icon": "🌈"
+    "icon": "🌈",
+    "onset_range_min": 16,
+    "onset_range_max": 45,
+    "duration_range_min": 140,
+    "duration_range_max": 240,
+    "measurement_protocol": "PANAS positive affect subscale and smile frequency tracking",
+    "research_support": "moderate"
   },
   {
     "name": "sleep_prep",
     "category": "emotional",
     "description": "Preparation for restful sleep",
-    "icon": "💤"
+    "icon": "💤",
+    "onset_range_min": 28,
+    "onset_range_max": 60,
+    "duration_range_min": 170,
+    "duration_range_max": 420,
+    "measurement_protocol": "Actigraphy-derived sleep latency + Pittsburgh Sleep Diary",
+    "research_support": "strong"
   },
   {
     "name": "meditation",
     "category": "emotional",
     "description": "Enhanced mindfulness and present-moment awareness",
-    "icon": "🧘‍♂️"
+    "icon": "🧘‍♂️",
+    "onset_range_min": 23,
+    "onset_range_max": 45,
+    "duration_range_min": 140,
+    "duration_range_max": 300,
+    "measurement_protocol": "Mindful Attention Awareness Scale (state) + EEG alpha power",
+    "research_support": "moderate"
   },
   {
     "name": "comfort",
     "category": "emotional",
     "description": "Emotional warmth and sense of well-being",
-    "icon": "☕"
+    "icon": "☕",
+    "onset_range_min": 13,
+    "onset_range_max": 30,
+    "duration_range_min": 120,
+    "duration_range_max": 320,
+    "measurement_protocol": "Thermal comfort Likert scale and skin conductance level",
+    "research_support": "moderate"
   },
   {
     "name": "grounding",
     "category": "emotional",
     "description": "Centered, present feeling of stability",
-    "icon": "🌳"
+    "icon": "🌳",
+    "onset_range_min": 18,
+    "onset_range_max": 35,
+    "duration_range_min": 180,
+    "duration_range_max": 320,
+    "measurement_protocol": "Body Awareness Questionnaire and postural sway variance",
+    "research_support": "preliminary"
+  },
+  {
+    "name": "memory_enhancement",
+    "category": "mental",
+    "description": "Improved recall of facts, names, and complex concepts",
+    "icon": "🧠",
+    "onset_range_min": 28,
+    "onset_range_max": 60,
+    "duration_range_min": 210,
+    "duration_range_max": 420,
+    "measurement_protocol": "Delayed word recall and paired-associate retention 24h later",
+    "research_support": "strong"
+  },
+  {
+    "name": "working_memory",
+    "category": "mental",
+    "description": "Greater ability to hold and manipulate information in mind",
+    "icon": "🧩",
+    "onset_range_min": 16,
+    "onset_range_max": 40,
+    "duration_range_min": 150,
+    "duration_range_max": 300,
+    "measurement_protocol": "2-back accuracy + reaction time with EEG theta power",
+    "research_support": "strong"
+  },
+  {
+    "name": "long_term_memory",
+    "category": "mental",
+    "description": "Enhanced consolidation of new material into durable storage",
+    "icon": "📚",
+    "onset_range_min": 40,
+    "onset_range_max": 70,
+    "duration_range_min": 240,
+    "duration_range_max": 480,
+    "measurement_protocol": "Rey AVLT delayed recall and recognition after 1h",
+    "research_support": "moderate"
+  },
+  {
+    "name": "information_processing",
+    "category": "mental",
+    "description": "Faster pattern recognition and reaction time",
+    "icon": "⚙️",
+    "onset_range_min": 15,
+    "onset_range_max": 30,
+    "duration_range_min": 120,
+    "duration_range_max": 240,
+    "measurement_protocol": "Choice reaction time task and P300 latency",
+    "research_support": "strong"
+  },
+  {
+    "name": "neuroplasticity",
+    "category": "mental",
+    "description": "Support for new neural connections and learning capacity",
+    "icon": "🕸️",
+    "onset_range_min": 33,
+    "onset_range_max": 90,
+    "duration_range_min": 230,
+    "duration_range_max": 480,
+    "measurement_protocol": "Serum BDNF + learning curve slope on novel task",
+    "research_support": "moderate"
+  },
+  {
+    "name": "neuroprotection",
+    "category": "mental",
+    "description": "Defense against oxidative and inflammatory damage in the brain",
+    "icon": "🛡️",
+    "onset_range_min": 33,
+    "onset_range_max": 120,
+    "duration_range_min": 250,
+    "duration_range_max": 720,
+    "measurement_protocol": "Oxidative stress markers (MDA) and inflammatory cytokines",
+    "research_support": "moderate"
+  },
+  {
+    "name": "learning_speed",
+    "category": "mental",
+    "description": "Accelerated acquisition of new skills or languages",
+    "icon": "🚀",
+    "onset_range_min": 23,
+    "onset_range_max": 50,
+    "duration_range_min": 180,
+    "duration_range_max": 360,
+    "measurement_protocol": "Skill acquisition slope on serial reaction task",
+    "research_support": "moderate"
+  },
+  {
+    "name": "mental_stamina",
+    "category": "mental",
+    "description": "Ability to stay mentally sharp during long work sessions",
+    "icon": "🔋",
+    "onset_range_min": 16,
+    "onset_range_max": 50,
+    "duration_range_min": 190,
+    "duration_range_max": 420,
+    "measurement_protocol": "Sustained attention to response task (SART) lapses over 2h",
+    "research_support": "moderate"
+  },
+  {
+    "name": "motivation_support",
+    "category": "mental",
+    "description": "Positive drive to initiate and complete tasks",
+    "icon": "🎯",
+    "onset_range_min": 16,
+    "onset_range_max": 40,
+    "duration_range_min": 150,
+    "duration_range_max": 300,
+    "measurement_protocol": "Intrinsic Motivation Inventory (effort/interest) + task initiation latency",
+    "research_support": "preliminary"
+  },
+  {
+    "name": "executive_function",
+    "category": "mental",
+    "description": "Improved planning, prioritization, and multi-step decision making",
+    "icon": "🧭",
+    "onset_range_min": 25,
+    "onset_range_max": 45,
+    "duration_range_min": 150,
+    "duration_range_max": 270,
+    "measurement_protocol": "Trail Making Test Part B and Wisconsin Card Sort errors",
+    "research_support": "strong"
+  },
+  {
+    "name": "stress_resilience",
+    "category": "mental",
+    "description": "Stable performance under demanding or unpredictable conditions",
+    "icon": "🌀",
+    "onset_range_min": 23,
+    "onset_range_max": 50,
+    "duration_range_min": 190,
+    "duration_range_max": 420,
+    "measurement_protocol": "Cortisol response to Trier Social Stress Test + HRV recovery",
+    "research_support": "moderate"
+  },
+  {
+    "name": "physical_endurance",
+    "category": "physical",
+    "description": "Sustained energy output for athletic or long work sessions",
+    "icon": "🏃",
+    "onset_range_min": 16,
+    "onset_range_max": 40,
+    "duration_range_min": 180,
+    "duration_range_max": 360,
+    "measurement_protocol": "Cycle ergometer time-to-exhaustion at 70% VO2max",
+    "research_support": "strong"
+  },
+  {
+    "name": "muscle_recovery",
+    "category": "physical",
+    "description": "Reduced soreness and faster post-exercise restoration",
+    "icon": "💪",
+    "onset_range_min": 45,
+    "onset_range_max": 90,
+    "duration_range_min": 240,
+    "duration_range_max": 720,
+    "measurement_protocol": "Perceived soreness (VAS) + serum CK 24h post exercise",
+    "research_support": "moderate"
+  },
+  {
+    "name": "metabolic_boost",
+    "category": "physical",
+    "description": "Elevated calorie expenditure and lipid metabolism",
+    "icon": "🔥",
+    "onset_range_min": 30,
+    "onset_range_max": 60,
+    "duration_range_min": 180,
+    "duration_range_max": 360,
+    "measurement_protocol": "Resting metabolic rate via indirect calorimetry every hour",
+    "research_support": "moderate"
+  },
+  {
+    "name": "thermogenesis",
+    "category": "physical",
+    "description": "Heat-producing effect that aids fat oxidation",
+    "icon": "🌡️",
+    "onset_range_min": 20,
+    "onset_range_max": 45,
+    "duration_range_min": 150,
+    "duration_range_max": 300,
+    "measurement_protocol": "Postprandial energy expenditure and skin temperature",
+    "research_support": "moderate"
+  },
+  {
+    "name": "appetite_regulation",
+    "category": "physical",
+    "description": "Balanced hunger cues and reduced cravings",
+    "icon": "🥗",
+    "onset_range_min": 15,
+    "onset_range_max": 40,
+    "duration_range_min": 120,
+    "duration_range_max": 260,
+    "measurement_protocol": "Visual Analog Scale hunger ratings + ghrelin levels",
+    "research_support": "moderate"
+  },
+  {
+    "name": "digestive_health",
+    "category": "physical",
+    "description": "Improved gut motility and microbiome support",
+    "icon": "🦠",
+    "onset_range_min": 23,
+    "onset_range_max": 60,
+    "duration_range_min": 180,
+    "duration_range_max": 360,
+    "measurement_protocol": "Gastrointestinal Symptom Rating Scale and stool form",
+    "research_support": "moderate"
+  },
+  {
+    "name": "gut_balance",
+    "category": "physical",
+    "description": "Stable gut-brain axis function and reduced bloating",
+    "icon": "⚖️",
+    "onset_range_min": 33,
+    "onset_range_max": 90,
+    "duration_range_min": 240,
+    "duration_range_max": 480,
+    "measurement_protocol": "Bristol stool scale + microbiome diversity snapshot",
+    "research_support": "preliminary"
+  },
+  {
+    "name": "immune_support",
+    "category": "physical",
+    "description": "Activation of innate and adaptive immune defenses",
+    "icon": "🧬",
+    "onset_range_min": 38,
+    "onset_range_max": 180,
+    "duration_range_min": 250,
+    "duration_range_max": 720,
+    "measurement_protocol": "Natural killer cell activity and salivary IgA",
+    "research_support": "moderate"
+  },
+  {
+    "name": "cardiovascular_support",
+    "category": "physical",
+    "description": "Healthy circulation, endothelial function, and lipid profile",
+    "icon": "❤️",
+    "onset_range_min": 30,
+    "onset_range_max": 60,
+    "duration_range_min": 240,
+    "duration_range_max": 480,
+    "measurement_protocol": "Flow-mediated dilation (FMD) and resting blood pressure",
+    "research_support": "moderate"
+  },
+  {
+    "name": "anti_inflammatory",
+    "category": "physical",
+    "description": "Reduced systemic inflammation markers",
+    "icon": "🧯",
+    "onset_range_min": 60,
+    "onset_range_max": 120,
+    "duration_range_min": 300,
+    "duration_range_max": 600,
+    "measurement_protocol": "CRP and IL-6 levels pre/post intervention",
+    "research_support": "moderate"
+  },
+  {
+    "name": "antioxidant_defense",
+    "category": "physical",
+    "description": "Neutralization of free radicals throughout the body",
+    "icon": "✨",
+    "onset_range_min": 33,
+    "onset_range_max": 90,
+    "duration_range_min": 290,
+    "duration_range_max": 600,
+    "measurement_protocol": "Glutathione peroxidase activity and isoprostane levels",
+    "research_support": "strong"
+  },
+  {
+    "name": "anxiety_reduction",
+    "category": "emotional",
+    "description": "Lower perceived anxiety and improved calm vigilance",
+    "icon": "🌤️",
+    "onset_range_min": 15,
+    "onset_range_max": 35,
+    "duration_range_min": 120,
+    "duration_range_max": 280,
+    "measurement_protocol": "GAD-7 short form and HRV RMSSD",
+    "research_support": "strong"
+  },
+  {
+    "name": "emotional_stability",
+    "category": "emotional",
+    "description": "Balanced mood with fewer swings",
+    "icon": "⚓",
+    "onset_range_min": 22,
+    "onset_range_max": 45,
+    "duration_range_min": 180,
+    "duration_range_max": 360,
+    "measurement_protocol": "Daily mood variance (EMA) and PANAS balance",
+    "research_support": "moderate"
+  },
+  {
+    "name": "depression_relief",
+    "category": "emotional",
+    "description": "Gentle uplift in mood and hedonic tone",
+    "icon": "🌈",
+    "onset_range_min": 45,
+    "onset_range_max": 90,
+    "duration_range_min": 240,
+    "duration_range_max": 420,
+    "measurement_protocol": "PHQ-9 short form administered weekly",
+    "research_support": "moderate"
   }
 ]

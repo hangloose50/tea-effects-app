@@ -103,5 +103,320 @@
     "mechanism": "Naturally occurring statin in aged pu-erh, improves cerebral blood flow",
     "half_life_minutes": 180,
     "safe_daily_limit_mg": 20
+  },
+  {
+    "name": "catechin",
+    "chemical_formula": "C15H14O6",
+    "mechanism": "Core flavanol in tea that supports vascular function and antioxidant defense",
+    "half_life_minutes": 150,
+    "safe_daily_limit_mg": 800
+  },
+  {
+    "name": "gallocatechin",
+    "chemical_formula": "C15H14O7",
+    "mechanism": "Potent antioxidant flavanol contributing to anti-inflammatory signaling",
+    "half_life_minutes": 150,
+    "safe_daily_limit_mg": 700
+  },
+  {
+    "name": "gallocatechin_gallate",
+    "chemical_formula": "C22H18O10",
+    "mechanism": "Gallated catechin that enhances neuroprotection and lipid metabolism",
+    "half_life_minutes": 180,
+    "safe_daily_limit_mg": 600
+  },
+  {
+    "name": "gallic_acid",
+    "chemical_formula": "C7H6O5",
+    "mechanism": "Phenolic antioxidant supporting detoxification pathways and gut health",
+    "half_life_minutes": 90,
+    "safe_daily_limit_mg": 1000
+  },
+  {
+    "name": "chlorogenic_acid",
+    "chemical_formula": "C16H18O9",
+    "mechanism": "Polyphenol that modulates glucose metabolism and provides neuroprotection",
+    "half_life_minutes": 120,
+    "safe_daily_limit_mg": 800
+  },
+  {
+    "name": "caffeic_acid",
+    "chemical_formula": "C9H8O4",
+    "mechanism": "Phenolic acid with anti-inflammatory and mitochondrial support properties",
+    "half_life_minutes": 110,
+    "safe_daily_limit_mg": 600
+  },
+  {
+    "name": "rosmarinic_acid",
+    "chemical_formula": "C18H16O8",
+    "mechanism": "Herbal phenolic associated with anxiolytic effects and antioxidant protection",
+    "half_life_minutes": 140,
+    "safe_daily_limit_mg": 500
+  },
+  {
+    "name": "taurine",
+    "chemical_formula": "C2H7NO3S",
+    "mechanism": "Sulfonic acid that stabilizes neuronal membranes and supports GABAergic tone",
+    "half_life_minutes": 120,
+    "safe_daily_limit_mg": 3000
+  },
+  {
+    "name": "mateine",
+    "chemical_formula": "C8H10N4O2",
+    "mechanism": "Yerba mate xanthine complex delivering smooth stimulant and antioxidant effects",
+    "half_life_minutes": 270,
+    "safe_daily_limit_mg": 400
+  },
+  {
+    "name": "guaranine",
+    "chemical_formula": "C8H10N4O2",
+    "mechanism": "Guarana-derived caffeine complex that sustains alertness and metabolic output",
+    "half_life_minutes": 330,
+    "safe_daily_limit_mg": 400
+  },
+  {
+    "name": "linalool",
+    "chemical_formula": "C10H18O",
+    "mechanism": "Terpenoid responsible for floral aromatics and parasympathetic activation",
+    "half_life_minutes": 60,
+    "safe_daily_limit_mg": 150
+  },
+  {
+    "name": "geraniol",
+    "chemical_formula": "C10H18O",
+    "mechanism": "Monoterpenoid that elevates mood and exhibits neuroprotective antioxidant behavior",
+    "half_life_minutes": 70,
+    "safe_daily_limit_mg": 120
+  },
+  {
+    "name": "nerolidol",
+    "chemical_formula": "C15H26O",
+    "mechanism": "Sesquiterpene that supports relaxation and enhances transdermal absorption",
+    "half_life_minutes": 160,
+    "safe_daily_limit_mg": 80
+  },
+  {
+    "name": "alpha_terpineol",
+    "chemical_formula": "C10H18O",
+    "mechanism": "Terpenoid linked to calm focus and antimicrobial activity in aromatic teas",
+    "half_life_minutes": 120,
+    "safe_daily_limit_mg": 100
+  },
+  {
+    "name": "beta_pinene",
+    "chemical_formula": "C10H16",
+    "mechanism": "Volatile terpene providing alertness and respiratory support effects",
+    "half_life_minutes": 45,
+    "safe_daily_limit_mg": 80
+  },
+  {
+    "name": "citral",
+    "chemical_formula": "C10H16O",
+    "mechanism": "Lemon-scented terpene mix that offers uplifting mood and digestive relief",
+    "half_life_minutes": 50,
+    "safe_daily_limit_mg": 120
+  },
+  {
+    "name": "kaempferol",
+    "chemical_formula": "C15H10O6",
+    "mechanism": "Flavonol improving endothelial function and anti-inflammatory signaling",
+    "half_life_minutes": 120,
+    "safe_daily_limit_mg": 400
+  },
+  {
+    "name": "myricetin",
+    "chemical_formula": "C15H10O8",
+    "mechanism": "Flavonoid with neuroprotective antioxidant capacity and glucose modulation",
+    "half_life_minutes": 150,
+    "safe_daily_limit_mg": 500
+  },
+  {
+    "name": "rutin",
+    "chemical_formula": "C27H30O16",
+    "mechanism": "Flavonol glycoside strengthening capillaries and supporting anti-anxiety effects",
+    "half_life_minutes": 180,
+    "safe_daily_limit_mg": 500
+  },
+  {
+    "name": "luteolin",
+    "chemical_formula": "C15H10O6",
+    "mechanism": "Flavone that tempers neuroinflammation and supports memory formation",
+    "half_life_minutes": 130,
+    "safe_daily_limit_mg": 200
+  },
+  {
+    "name": "hesperidin",
+    "chemical_formula": "C28H34O15",
+    "mechanism": "Citrus flavonoid promoting circulation and calm-alert mood states",
+    "half_life_minutes": 150,
+    "safe_daily_limit_mg": 500
+  },
+  {
+    "name": "isoquercitrin",
+    "chemical_formula": "C21H20O12",
+    "mechanism": "Bioavailable quercetin glycoside with antioxidant and antihistamine traits",
+    "half_life_minutes": 140,
+    "safe_daily_limit_mg": 400
+  },
+  {
+    "name": "ginkgolide_a",
+    "chemical_formula": "C20H24O9",
+    "mechanism": "Diterpenoid lactone improving cerebral blood flow and platelet modulation",
+    "half_life_minutes": 180,
+    "safe_daily_limit_mg": 120
+  },
+  {
+    "name": "ginkgolide_b",
+    "chemical_formula": "C20H24O10",
+    "mechanism": "Potent PAF antagonist supporting memory and neurovascular resilience",
+    "half_life_minutes": 200,
+    "safe_daily_limit_mg": 90
+  },
+  {
+    "name": "bilobalide",
+    "chemical_formula": "C15H18O8",
+    "mechanism": "Sesquiterpene lactone protecting hippocampal neurons from oxidative stress",
+    "half_life_minutes": 150,
+    "safe_daily_limit_mg": 80
+  },
+  {
+    "name": "bacoside_a",
+    "chemical_formula": "C66H104O26",
+    "mechanism": "Triterpenoid saponin enhancing synaptic communication and memory formation",
+    "half_life_minutes": 240,
+    "safe_daily_limit_mg": 300
+  },
+  {
+    "name": "bacoside_b",
+    "chemical_formula": "C41H68O13",
+    "mechanism": "Bacopa constituent aiding neuroplasticity and stress resilience",
+    "half_life_minutes": 240,
+    "safe_daily_limit_mg": 300
+  },
+  {
+    "name": "asiaticoside",
+    "chemical_formula": "C48H78O19",
+    "mechanism": "Centella triterpenoid supporting collagen synthesis and calm focus",
+    "half_life_minutes": 210,
+    "safe_daily_limit_mg": 200
+  },
+  {
+    "name": "asiatic_acid",
+    "chemical_formula": "C30H48O5",
+    "mechanism": "Aglycone promoting neurogenesis and anti-anxiety effects",
+    "half_life_minutes": 180,
+    "safe_daily_limit_mg": 150
+  },
+  {
+    "name": "withaferin_a",
+    "chemical_formula": "C28H38O6",
+    "mechanism": "Withania lactone reducing cortisol and supporting neuroprotection",
+    "half_life_minutes": 210,
+    "safe_daily_limit_mg": 50
+  },
+  {
+    "name": "withanolide_a",
+    "chemical_formula": "C28H38O7",
+    "mechanism": "Adaptogenic steroidal lactone balancing stress response and mood",
+    "half_life_minutes": 210,
+    "safe_daily_limit_mg": 50
+  },
+  {
+    "name": "salidroside",
+    "chemical_formula": "C14H20O7",
+    "mechanism": "Rhodiola glycoside enhancing mitochondrial efficiency and anti-fatigue effects",
+    "half_life_minutes": 150,
+    "safe_daily_limit_mg": 300
+  },
+  {
+    "name": "eleutheroside_e",
+    "chemical_formula": "C34H46O18",
+    "mechanism": "Eleuthero lignan improving physical endurance and mental stamina",
+    "half_life_minutes": 180,
+    "safe_daily_limit_mg": 200
+  },
+  {
+    "name": "hericenone_c",
+    "chemical_formula": "C27H36O9",
+    "mechanism": "Lion's mane aromatic stimulating NGF production and cognitive clarity",
+    "half_life_minutes": 160,
+    "safe_daily_limit_mg": 150
+  },
+  {
+    "name": "magnesium",
+    "chemical_formula": "Mg",
+    "mechanism": "Essential mineral that modulates NMDA receptors and smooths nervous system excitability",
+    "half_life_minutes": 1440,
+    "safe_daily_limit_mg": 400
+  },
+  {
+    "name": "cinnamaldehyde",
+    "chemical_formula": "C9H8O",
+    "mechanism": "Warming aromatic aldehyde that enhances circulation and metabolic heat production",
+    "half_life_minutes": 120,
+    "safe_daily_limit_mg": 200
+  },
+  {
+    "name": "anthocyanins",
+    "chemical_formula": "Variable",
+    "mechanism": "Pigmented flavonoids that protect neurons from oxidative stress and improve microcirculation",
+    "half_life_minutes": 90,
+    "safe_daily_limit_mg": 1000
+  },
+  {
+    "name": "vitamin_c",
+    "chemical_formula": "C6H8O6",
+    "mechanism": "Essential antioxidant cofactor supporting immune defense and neurotransmitter synthesis",
+    "half_life_minutes": 120,
+    "safe_daily_limit_mg": 2000
+  },
+  {
+    "name": "aspalathin",
+    "chemical_formula": "C21H20O11",
+    "mechanism": "Unique Rooibos dihydrochalcone that moderates blood glucose and oxidative stress",
+    "half_life_minutes": 150,
+    "safe_daily_limit_mg": 800
+  },
+  {
+    "name": "mangiferin",
+    "chemical_formula": "C19H18O11",
+    "mechanism": "Xanthonoid polyphenol providing anti-inflammatory and neuroprotective benefits",
+    "half_life_minutes": 160,
+    "safe_daily_limit_mg": 600
+  },
+  {
+    "name": "linalyl_acetate",
+    "chemical_formula": "C12H20O2",
+    "mechanism": "Lavender ester with pronounced calming and parasympathetic-activating effects",
+    "half_life_minutes": 80,
+    "safe_daily_limit_mg": 120
+  },
+  {
+    "name": "baicalin",
+    "chemical_formula": "C21H18O11",
+    "mechanism": "Flavone glucuronide from skullcap that modulates GABA receptors and eases tension",
+    "half_life_minutes": 150,
+    "safe_daily_limit_mg": 400
+  },
+  {
+    "name": "rosavin",
+    "chemical_formula": "C20H28O10",
+    "mechanism": "Rhodiola phenylpropanoid that enhances stress resilience via HPA-axis modulation",
+    "half_life_minutes": 200,
+    "safe_daily_limit_mg": 300
+  },
+  {
+    "name": "ginsenosides",
+    "chemical_formula": "Variable",
+    "mechanism": "Panax saponins improving oxygen utilization, immune modulation, and cognitive stamina",
+    "half_life_minutes": 240,
+    "safe_daily_limit_mg": 400
+  },
+  {
+    "name": "ganoderic_acids",
+    "chemical_formula": "Variable",
+    "mechanism": "Triterpenes from reishi mushroom that soothe the nervous system and support immunity",
+    "half_life_minutes": 210,
+    "safe_daily_limit_mg": 200
   }
 ]

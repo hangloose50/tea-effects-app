@@ -1,0 +1,541 @@
+[
+  {
+    "name": "Keemun Mao Feng",
+    "type": "black",
+    "origin": "Qimen, Anhui, China",
+    "description": "High-grade Keemun with layered cocoa, orchid, and dried fruit aromatics. Slow oxidation preserves balanced theaflavins for mental sharpness without jitters.",
+    "price_per_oz": 4.80,
+    "compounds": {
+      "caffeine": 55,
+      "theaflavins": 85,
+      "thearubigins": 120,
+      "linalool": 2.5
+    },
+    "brewing": {
+      "temp_c": 93,
+      "time_sec": 210,
+      "amount_g": 3
+    },
+    "effects": [
+      { "effect": "alertness", "intensity": 4, "onset_minutes": 15, "duration_minutes": 210 },
+      { "effect": "mental_clarity", "intensity": 4, "onset_minutes": 20, "duration_minutes": 200 },
+      { "effect": "mental_stamina", "intensity": 3, "onset_minutes": 25, "duration_minutes": 240 },
+      { "effect": "cardiovascular_support", "intensity": 3, "onset_minutes": 40, "duration_minutes": 300 }
+    ]
+  },
+  {
+    "name": "Keemun Hao Ya A",
+    "type": "black",
+    "origin": "Qimen, Anhui, China",
+    "description": "Select bud-and-leaf Keemun delivering chocolate depth with winey brightness. Elevated catechin fraction supports executive function and mood stability.",
+    "price_per_oz": 6.20,
+    "compounds": {
+      "caffeine": 60,
+      "catechin": 40,
+      "theaflavins": 95,
+      "thearubigins": 130
+    },
+    "brewing": {
+      "temp_c": 92,
+      "time_sec": 195,
+      "amount_g": 3
+    },
+    "effects": [
+      { "effect": "mental_clarity", "intensity": 5, "onset_minutes": 18, "duration_minutes": 230 },
+      { "effect": "motivation_support", "intensity": 4, "onset_minutes": 22, "duration_minutes": 210 },
+      { "effect": "stress_resilience", "intensity": 3, "onset_minutes": 30, "duration_minutes": 240 },
+      { "effect": "antioxidant_defense", "intensity": 4, "onset_minutes": 45, "duration_minutes": 360 }
+    ]
+  },
+  {
+    "name": "Lapsang Souchong (Traditional)",
+    "type": "black",
+    "origin": "Wuyi Mountains, Fujian, China",
+    "description": "Pine-smoked black tea dried over cypress wood. Rich in terpenes that ground the nervous system while delivering steady stimulation.",
+    "price_per_oz": 3.90,
+    "compounds": {
+      "caffeine": 50,
+      "theaflavins": 70,
+      "beta_pinene": 3,
+      "nerolidol": 1.5
+    },
+    "brewing": {
+      "temp_c": 96,
+      "time_sec": 180,
+      "amount_g": 4
+    },
+    "effects": [
+      { "effect": "grounding", "intensity": 5, "onset_minutes": 20, "duration_minutes": 240 },
+      { "effect": "stress_resilience", "intensity": 4, "onset_minutes": 25, "duration_minutes": 220 },
+      { "effect": "alertness", "intensity": 3, "onset_minutes": 12, "duration_minutes": 180 },
+      { "effect": "digestive_health", "intensity": 3, "onset_minutes": 35, "duration_minutes": 200 }
+    ]
+  },
+  {
+    "name": "Jin Jun Mei (Golden Eyebrow)",
+    "type": "black",
+    "origin": "Tongmu, Fujian, China",
+    "description": "Bud-only black tea with caramelized honey sweetness. Dense catechin and amino acid profile promotes smooth focus and creative problem solving.",
+    "price_per_oz": 8.00,
+    "compounds": {
+      "caffeine": 45,
+      "catechin": 50,
+      "l-theanine": 22,
+      "linalool": 2
+    },
+    "brewing": {
+      "temp_c": 90,
+      "time_sec": 180,
+      "amount_g": 3
+    },
+    "effects": [
+      { "effect": "creativity", "intensity": 5, "onset_minutes": 30, "duration_minutes": 210 },
+      { "effect": "mental_clarity", "intensity": 4, "onset_minutes": 22, "duration_minutes": 200 },
+      { "effect": "emotional_stability", "intensity": 4, "onset_minutes": 28, "duration_minutes": 230 },
+      { "effect": "antioxidant_defense", "intensity": 4, "onset_minutes": 50, "duration_minutes": 360 }
+    ]
+  },
+  {
+    "name": "Dian Hong Golden Tips",
+    "type": "black",
+    "origin": "Fengqing, Yunnan, China",
+    "description": "Golden bud Yunnan black with malty-citrus body and elevated theobromine. Ideal for uplifting energy without sharp peaks.",
+    "price_per_oz": 5.60,
+    "compounds": {
+      "caffeine": 58,
+      "theobromine": 18,
+      "catechin": 35,
+      "luteolin": 6
+    },
+    "brewing": {
+      "temp_c": 95,
+      "time_sec": 210,
+      "amount_g": 3
+    },
+    "effects": [
+      { "effect": "energy_boost", "intensity": 4, "onset_minutes": 15, "duration_minutes": 210 },
+      { "effect": "mood_lift", "intensity": 4, "onset_minutes": 18, "duration_minutes": 200 },
+      { "effect": "mental_stamina", "intensity": 4, "onset_minutes": 25, "duration_minutes": 240 },
+      { "effect": "cardiovascular_support", "intensity": 3, "onset_minutes": 40, "duration_minutes": 300 }
+    ]
+  },
+  {
+    "name": "Assam TGFOP First Flush",
+    "type": "black",
+    "origin": "Upper Assam, India",
+    "description": "Tip-heavy orthodox Assam harvested in early spring. Bright, brisk liquor rich in theaflavins for executive function support.",
+    "price_per_oz": 3.40,
+    "compounds": {
+      "caffeine": 65,
+      "theaflavins": 110,
+      "thearubigins": 150,
+      "kaempferol": 10
+    },
+    "brewing": {
+      "temp_c": 96,
+      "time_sec": 210,
+      "amount_g": 3.5
+    },
+    "effects": [
+      { "effect": "alertness", "intensity": 5, "onset_minutes": 12, "duration_minutes": 210 },
+      { "effect": "working_memory", "intensity": 4, "onset_minutes": 18, "duration_minutes": 200 },
+      { "effect": "motivation_support", "intensity": 4, "onset_minutes": 20, "duration_minutes": 210 },
+      { "effect": "thermogenesis", "intensity": 3, "onset_minutes": 35, "duration_minutes": 240 }
+    ]
+  },
+  {
+    "name": "Assam CTC Breakfast",
+    "type": "black",
+    "origin": "Dibrugarh, India",
+    "description": "Robust crush-tear-curl Assam built for milk service. High caffeine and thearubigin levels deliver reliable morning drive.",
+    "price_per_oz": 2.10,
+    "compounds": {
+      "caffeine": 75,
+      "thearubigins": 180,
+      "theaflavins": 90,
+      "citral": 1.2
+    },
+    "brewing": {
+      "temp_c": 97,
+      "time_sec": 180,
+      "amount_g": 3
+    },
+    "effects": [
+      { "effect": "energy_boost", "intensity": 5, "onset_minutes": 10, "duration_minutes": 200 },
+      { "effect": "physical_endurance", "intensity": 4, "onset_minutes": 18, "duration_minutes": 210 },
+      { "effect": "mental_stamina", "intensity": 4, "onset_minutes": 20, "duration_minutes": 220 },
+      { "effect": "appetite_regulation", "intensity": 3, "onset_minutes": 30, "duration_minutes": 240 }
+    ]
+  },
+  {
+    "name": "Darjeeling First Flush",
+    "type": "black",
+    "origin": "Kurseong, Darjeeling, India",
+    "description": "Spring-harvest Darjeeling with muscatel florals and green-tea-like freshness. Elevated linalool and EGCG provide sparkling mental acuity.",
+    "price_per_oz": 7.20,
+    "compounds": {
+      "caffeine": 45,
+      "EGCG": 55,
+      "linalool": 3,
+      "kaempferol": 8
+    },
+    "brewing": {
+      "temp_c": 88,
+      "time_sec": 180,
+      "amount_g": 3
+    },
+    "effects": [
+      { "effect": "mental_clarity", "intensity": 5, "onset_minutes": 18, "duration_minutes": 190 },
+      { "effect": "creativity", "intensity": 4, "onset_minutes": 25, "duration_minutes": 180 },
+      { "effect": "stress_resilience", "intensity": 3, "onset_minutes": 28, "duration_minutes": 200 },
+      { "effect": "antioxidant_defense", "intensity": 4, "onset_minutes": 40, "duration_minutes": 300 }
+    ]
+  },
+  {
+    "name": "Darjeeling Second Flush",
+    "type": "black",
+    "origin": "Darjeeling, India",
+    "description": "Summer harvest showcasing muscatel grape and stone fruit. Higher thearubigin load makes it ideal for afternoon work sessions.",
+    "price_per_oz": 5.90,
+    "compounds": {
+      "caffeine": 52,
+      "thearubigins": 140,
+      "rutin": 9,
+      "linalool": 2
+    },
+    "brewing": {
+      "temp_c": 92,
+      "time_sec": 210,
+      "amount_g": 3
+    },
+    "effects": [
+      { "effect": "mental_stamina", "intensity": 4, "onset_minutes": 20, "duration_minutes": 220 },
+      { "effect": "motivation_support", "intensity": 4, "onset_minutes": 24, "duration_minutes": 200 },
+      { "effect": "emotional_stability", "intensity": 3, "onset_minutes": 30, "duration_minutes": 210 },
+      { "effect": "cardiovascular_support", "intensity": 3, "onset_minutes": 45, "duration_minutes": 300 }
+    ]
+  },
+  {
+    "name": "Nilgiri Winter Frost",
+    "type": "black",
+    "origin": "Kotagiri, Tamil Nadu, India",
+    "description": "Frost-season Nilgiri with eucalyptus brightness and smooth honeyed finish. Naturally high in geraniol for mood uplift and stress relief.",
+    "price_per_oz": 4.10,
+    "compounds": {
+      "caffeine": 48,
+      "geraniol": 2.8,
+      "theaflavins": 80,
+      "kaempferol": 9
+    },
+    "brewing": {
+      "temp_c": 93,
+      "time_sec": 180,
+      "amount_g": 3
+    },
+    "effects": [
+      { "effect": "mood_lift", "intensity": 4, "onset_minutes": 20, "duration_minutes": 190 },
+      { "effect": "stress_relief", "intensity": 4, "onset_minutes": 25, "duration_minutes": 210 },
+      { "effect": "mental_clarity", "intensity": 3, "onset_minutes": 18, "duration_minutes": 200 },
+      { "effect": "immune_support", "intensity": 3, "onset_minutes": 50, "duration_minutes": 320 }
+    ]
+  },
+  {
+    "name": "Sikkim Temi Estate",
+    "type": "black",
+    "origin": "Ravangla, Sikkim, India",
+    "description": "Rare Himalayan orthodox tea with honeyed apricot and floral notes. Balanced caffeine for reflective mornings.",
+    "price_per_oz": 4.90,
+    "compounds": {
+      "caffeine": 50,
+      "catechin": 32,
+      "l-theanine": 20,
+      "kaempferol": 8
+    },
+    "brewing": {
+      "temp_c": 93,
+      "time_sec": 195,
+      "amount_g": 3
+    },
+    "effects": [
+      { "effect": "mental_clarity", "intensity": 4, "onset_minutes": 18, "duration_minutes": 200 },
+      { "effect": "creativity", "intensity": 3, "onset_minutes": 25, "duration_minutes": 190 },
+      { "effect": "stress_resilience", "intensity": 3, "onset_minutes": 30, "duration_minutes": 210 }
+    ]
+  },
+  {
+    "name": "Kangra Valley Orthodox",
+    "type": "black",
+    "origin": "Himachal Pradesh, India",
+    "description": "Small-batch Kangra tea with rose-musk aromatics and brisk finish. Linalool-rich for sensory brightness.",
+    "price_per_oz": 4.30,
+    "compounds": {
+      "caffeine": 42,
+      "linalool": 3.2,
+      "theaflavins": 70,
+      "quercetin": 10
+    },
+    "brewing": {
+      "temp_c": 90,
+      "time_sec": 180,
+      "amount_g": 3
+    },
+    "effects": [
+      { "effect": "mental_clarity", "intensity": 4, "onset_minutes": 18, "duration_minutes": 190 },
+      { "effect": "creativity", "intensity": 4, "onset_minutes": 25, "duration_minutes": 180 },
+      { "effect": "cardiovascular_support", "intensity": 3, "onset_minutes": 40, "duration_minutes": 260 }
+    ]
+  },
+  {
+    "name": "Nuwara Eliya High-Grown",
+    "type": "black",
+    "origin": "Central Highlands, Sri Lanka",
+    "description": "Champagne of Ceylon teas with crisp citrus and eucalyptus lift. Clean caffeine curve for midday resets.",
+    "price_per_oz": 3.90,
+    "compounds": {
+      "caffeine": 48,
+      "theaflavins": 75,
+      "citral": 1.5,
+      "linalool": 2.4
+    },
+    "brewing": {
+      "temp_c": 94,
+      "time_sec": 210,
+      "amount_g": 3
+    },
+    "effects": [
+      { "effect": "alertness", "intensity": 4, "onset_minutes": 16, "duration_minutes": 200 },
+      { "effect": "mental_clarity", "intensity": 4, "onset_minutes": 22, "duration_minutes": 200 },
+      { "effect": "mood_lift", "intensity": 3, "onset_minutes": 25, "duration_minutes": 190 }
+    ]
+  },
+  {
+    "name": "Uva Province Ceylon",
+    "type": "black",
+    "origin": "Uva, Sri Lanka",
+    "description": "Peppermint-eucalyptus high-grown Ceylon harvested during the monsoon. Enhances respiration and alert focus.",
+    "price_per_oz": 3.60,
+    "compounds": {
+      "caffeine": 50,
+      "theaflavins": 80,
+      "beta_pinene": 1.6,
+      "citral": 1.4
+    },
+    "brewing": {
+      "temp_c": 95,
+      "time_sec": 210,
+      "amount_g": 3
+    },
+    "effects": [
+      { "effect": "alertness", "intensity": 4, "onset_minutes": 15, "duration_minutes": 210 },
+      { "effect": "physical_endurance", "intensity": 3, "onset_minutes": 22, "duration_minutes": 220 },
+      { "effect": "stress_resilience", "intensity": 3, "onset_minutes": 28, "duration_minutes": 220 }
+    ]
+  },
+  {
+    "name": "Dimbula Mid-Grown",
+    "type": "black",
+    "origin": "Dimbula, Sri Lanka",
+    "description": "Fruit-forward Ceylon ideal for afternoon sipping iced or hot. Balanced polyphenols prevent caffeine crash.",
+    "price_per_oz": 3.10,
+    "compounds": {
+      "caffeine": 45,
+      "theaflavins": 72,
+      "thearubigins": 120,
+      "citral": 1.1
+    },
+    "brewing": {
+      "temp_c": 94,
+      "time_sec": 210,
+      "amount_g": 3
+    },
+    "effects": [
+      { "effect": "mental_stamina", "intensity": 3, "onset_minutes": 22, "duration_minutes": 210 },
+      { "effect": "mood_lift", "intensity": 3, "onset_minutes": 25, "duration_minutes": 200 },
+      { "effect": "digestive_health", "intensity": 3, "onset_minutes": 35, "duration_minutes": 220 }
+    ]
+  },
+  {
+    "name": "Kenyan Orthodox (Kericho)",
+    "type": "black",
+    "origin": "Kericho, Kenya",
+    "description": "High-altitude orthodox Kenyan tea with bright berry aromatics and strong antioxidant load.",
+    "price_per_oz": 3.00,
+    "compounds": {
+      "caffeine": 60,
+      "theaflavins": 95,
+      "catechin": 28,
+      "quercetin": 12
+    },
+    "brewing": {
+      "temp_c": 95,
+      "time_sec": 210,
+      "amount_g": 3
+    },
+    "effects": [
+      { "effect": "alertness", "intensity": 4, "onset_minutes": 16, "duration_minutes": 210 },
+      { "effect": "mental_clarity", "intensity": 4, "onset_minutes": 22, "duration_minutes": 200 },
+      { "effect": "cardiovascular_support", "intensity": 3, "onset_minutes": 40, "duration_minutes": 260 }
+    ]
+  },
+  {
+    "name": "Kenyan CTC PF1",
+    "type": "black",
+    "origin": "Kericho, Kenya",
+    "description": "Granular CTC grade prized for chai and milk teas. Dense caffeine and thearubigins deliver strong metabolic lift.",
+    "price_per_oz": 2.20,
+    "compounds": {
+      "caffeine": 78,
+      "thearubigins": 200,
+      "theaflavins": 85,
+      "caffeic_acid": 18
+    },
+    "brewing": {
+      "temp_c": 97,
+      "time_sec": 150,
+      "amount_g": 3
+    },
+    "effects": [
+      { "effect": "energy_boost", "intensity": 5, "onset_minutes": 8, "duration_minutes": 220 },
+      { "effect": "thermogenesis", "intensity": 4, "onset_minutes": 25, "duration_minutes": 240 },
+      { "effect": "mental_stamina", "intensity": 4, "onset_minutes": 18, "duration_minutes": 230 }
+    ]
+  },
+  {
+    "name": "Rwandan Rukeri Black",
+    "type": "black",
+    "origin": "Rukeri, Rwanda",
+    "description": "Shade-grown East African tea with sweet malt and citrus zest. Clean caffeine delivery with immune-supportive flavonols.",
+    "price_per_oz": 2.80,
+    "compounds": {
+      "caffeine": 52,
+      "theaflavins": 88,
+      "quercetin": 15,
+      "kaempferol": 9
+    },
+    "brewing": {
+      "temp_c": 94,
+      "time_sec": 195,
+      "amount_g": 3
+    },
+    "effects": [
+      { "effect": "mental_clarity", "intensity": 4, "onset_minutes": 20, "duration_minutes": 200 },
+      { "effect": "mood_lift", "intensity": 3, "onset_minutes": 24, "duration_minutes": 190 },
+      { "effect": "immune_support", "intensity": 3, "onset_minutes": 45, "duration_minutes": 280 }
+    ]
+  },
+  {
+    "name": "Georgian Guria Hand-crafted",
+    "type": "black",
+    "origin": "Ozurgeti, Georgia",
+    "description": "Hand-rolled small-lot tea from Black Sea foothills. Offers cocoa-cherry sweetness with moderate caffeine.",
+    "price_per_oz": 5.10,
+    "compounds": {
+      "caffeine": 44,
+      "theaflavins": 70,
+      "catechin": 30,
+      "linalool": 1.7
+    },
+    "brewing": {
+      "temp_c": 92,
+      "time_sec": 210,
+      "amount_g": 3
+    },
+    "effects": [
+      { "effect": "creativity", "intensity": 4, "onset_minutes": 28, "duration_minutes": 210 },
+      { "effect": "mental_clarity", "intensity": 3, "onset_minutes": 22, "duration_minutes": 200 },
+      { "effect": "emotional_stability", "intensity": 3, "onset_minutes": 30, "duration_minutes": 210 }
+    ]
+  },
+  {
+    "name": "Turkish Rize Black",
+    "type": "black",
+    "origin": "Rize, Türkiye",
+    "description": "Copper-hued tea grown on Black Sea terraces, traditionally brewed in caydanlik kettles. Provides relaxed alertness with digestive support.",
+    "price_per_oz": 2.40,
+    "compounds": {
+      "caffeine": 58,
+      "thearubigins": 150,
+      "theaflavins": 80,
+      "caffeic_acid": 16
+    },
+    "brewing": {
+      "temp_c": 95,
+      "time_sec": 240,
+      "amount_g": 4
+    },
+    "effects": [
+      { "effect": "mental_stamina", "intensity": 4, "onset_minutes": 22, "duration_minutes": 220 },
+      { "effect": "comfort", "intensity": 4, "onset_minutes": 20, "duration_minutes": 210 },
+      { "effect": "digestion", "intensity": 3, "onset_minutes": 35, "duration_minutes": 230 }
+    ]
+  },
+  {
+    "name": "Nepal Ilam Ruby",
+    "type": "black",
+    "origin": "Ilam, Nepal",
+    "description": "High-elevation smallholder tea with ruby liquor and wildflower aromatics. Balanced catechin and rutin content supports brain perfusion.",
+    "price_per_oz": 4.20,
+    "compounds": {
+      "caffeine": 48,
+      "catechin": 34,
+      "rutin": 10,
+      "gallocatechin": 22
+    },
+    "brewing": {
+      "temp_c": 92,
+      "time_sec": 195,
+      "amount_g": 3
+    },
+    "effects": [
+      { "effect": "mental_clarity", "intensity": 4, "onset_minutes": 20, "duration_minutes": 200 },
+      { "effect": "cardiovascular_support", "intensity": 3, "onset_minutes": 35, "duration_minutes": 260 },
+      { "effect": "antioxidant_defense", "intensity": 4, "onset_minutes": 45, "duration_minutes": 320 }
+    ]
+  },
+  {
+    "name": "Japanese Wakoucha",
+    "type": "black",
+    "origin": "Kagoshima, Japan",
+    "description": "Rare Japanese black tea with sweet potato and brown sugar finish. Higher theanine to caffeine ratio keeps energy gentle.",
+    "price_per_oz": 6.40,
+    "compounds": {
+      "caffeine": 38,
+      "l-theanine": 28,
+      "theaflavins": 60,
+      "linalool": 2
+    },
+    "brewing": {
+      "temp_c": 90,
+      "time_sec": 180,
+      "amount_g": 3
+    },
+    "effects": [
+      { "effect": "calm", "intensity": 4, "onset_minutes": 22, "duration_minutes": 210 },
+      { "effect": "mental_clarity", "intensity": 3, "onset_minutes": 18, "duration_minutes": 190 },
+      { "effect": "emotional_stability", "intensity": 3, "onset_minutes": 24, "duration_minutes": 210 }
+    ]
+  },
+  {
+    "name": "Vietnamese Ha Giang Black",
+    "type": "black",
+    "origin": "Ha Giang, Vietnam",
+    "description": "Northern Vietnamese old-tree black with cacao nib body and tropical fruit high notes. Robust catechin payload for resilient focus.",
+    "price_per_oz": 3.30,
+    "compounds": {
+      "caffeine": 58,
+      "catechin": 40,
+      "theaflavins": 85,
+      "gallic_acid": 18
+    },
+    "brewing": {
+      "temp_c": 95,
+      "time_sec": 210,
+      "amount_g": 3.5
+    },
+    "effects": [
+      { "effect": "sustained_focus", "intensity": 4, "onset_minutes": 18, "duration_minutes": 220 },
+      { "effect": "mental_stamina", "intensity": 4, "onset_minutes": 24, "duration_minutes": 230 },
+      { "effect": "motivation_support", "intensity": 3, "onset_minutes": 20, "duration_minutes": 210 }
+    ]
+  }
+]

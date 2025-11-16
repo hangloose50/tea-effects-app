@@ -157,5 +157,143 @@
       { "effect": "digestion", "intensity": 5, "onset_minutes": 30, "duration_minutes": 240 },
       { "effect": "stress_relief", "intensity": 4, "onset_minutes": 25, "duration_minutes": 260 }
     ]
+  },
+  {
+    "name": "Purple Bud Sheng Pu-erh",
+    "type": "pu-erh",
+    "origin": "Dehong, Yunnan, China",
+    "description": "Naturally purple-leaf cultivar rich in anthocyanins and catechins. Produces brisk energy with strong neuroprotective benefits.",
+    "price_per_oz": 5.80,
+    "compounds": {
+      "caffeine": 72,
+      "EGCG": 120,
+      "anthocyanins": 40,
+      "theabrownins": 90
+    },
+    "brewing": {
+      "temp_c": 92,
+      "time_sec": 120,
+      "amount_g": 5
+    },
+    "effects": [
+      { "effect": "alertness", "intensity": 5, "onset_minutes": 15, "duration_minutes": 240 },
+      { "effect": "mental_clarity", "intensity": 5, "onset_minutes": 18, "duration_minutes": 240 },
+      { "effect": "neuroprotection", "intensity": 4, "onset_minutes": 40, "duration_minutes": 320 }
+    ]
+  },
+  {
+    "name": "Spring Yiwu Gushu Sheng",
+    "type": "pu-erh",
+    "origin": "Yiwu, Yunnan, China",
+    "description": "Old-tree spring harvest with silky sweetness and floral spice. Balanced caffeine and theanine make it a premier study tea.",
+    "price_per_oz": 7.20,
+    "compounds": {
+      "caffeine": 60,
+      "l-theanine": 32,
+      "gallocatechin": 35,
+      "lovastatin": 6
+    },
+    "brewing": {
+      "temp_c": 93,
+      "time_sec": 150,
+      "amount_g": 5
+    },
+    "effects": [
+      { "effect": "sustained_focus", "intensity": 5, "onset_minutes": 25, "duration_minutes": 280 },
+      { "effect": "memory_enhancement", "intensity": 4, "onset_minutes": 35, "duration_minutes": 300 },
+      { "effect": "emotional_stability", "intensity": 3, "onset_minutes": 30, "duration_minutes": 240 }
+    ]
+  },
+  {
+    "name": "Lotus Leaf Ripe Pu-erh",
+    "type": "pu-erh",
+    "origin": "Xishuangbanna, China",
+    "description": "Ripe pu-erh steamed with sacred lotus leaves for soothing aroma. Combines GABA-rich liquor with appetite regulation benefits.",
+    "price_per_oz": 4.80,
+    "compounds": {
+      "caffeine": 48,
+      "GABA": 50,
+      "theabrownins": 170,
+      "rosmarinic_acid": 12
+    },
+    "brewing": {
+      "temp_c": 99,
+      "time_sec": 210,
+      "amount_g": 6
+    },
+    "effects": [
+      { "effect": "anxiety_reduction", "intensity": 5, "onset_minutes": 18, "duration_minutes": 260 },
+      { "effect": "appetite_regulation", "intensity": 4, "onset_minutes": 35, "duration_minutes": 240 },
+      { "effect": "digestive_health", "intensity": 4, "onset_minutes": 30, "duration_minutes": 240 }
+    ]
+  },
+  {
+    "name": "Chenpi Shou Pu-erh",
+    "type": "pu-erh",
+    "origin": "Menghai + Xinhui, China",
+    "description": "Ripe pu-erh aged inside sun-dried tangerine peel. High citrus polyphenols aid digestion and uplift mood.",
+    "price_per_oz": 4.60,
+    "compounds": {
+      "caffeine": 50,
+      "theabrownins": 180,
+      "hesperidin": 20,
+      "citral": 2
+    },
+    "brewing": {
+      "temp_c": 98,
+      "time_sec": 200,
+      "amount_g": 6
+    },
+    "effects": [
+      { "effect": "digestive_health", "intensity": 5, "onset_minutes": 25, "duration_minutes": 240 },
+      { "effect": "mood_lift", "intensity": 4, "onset_minutes": 20, "duration_minutes": 220 },
+      { "effect": "immune_support", "intensity": 3, "onset_minutes": 40, "duration_minutes": 280 }
+    ]
+  },
+  {
+    "name": "Menghai 7572 Classic Ripe",
+    "type": "pu-erh",
+    "origin": "Menghai, China",
+    "description": "Benchmark Dayi recipe with creamy sweet date notes. Reliable baseline for gut-brain harmony and relaxed focus.",
+    "price_per_oz": 3.90,
+    "compounds": {
+      "caffeine": 54,
+      "GABA": 42,
+      "thearubigins": 160,
+      "polysaccharides": 160
+    },
+    "brewing": {
+      "temp_c": 100,
+      "time_sec": 210,
+      "amount_g": 7
+    },
+    "effects": [
+      { "effect": "calm", "intensity": 4, "onset_minutes": 18, "duration_minutes": 260 },
+      { "effect": "mental_stamina", "intensity": 3, "onset_minutes": 30, "duration_minutes": 240 },
+      { "effect": "gut_balance", "intensity": 4, "onset_minutes": 35, "duration_minutes": 250 }
+    ]
+  },
+  {
+    "name": "Xiaguan Flame Tuo Sheng",
+    "type": "pu-erh",
+    "origin": "Xiaguan, Yunnan, China",
+    "description": "Iconic tightly compressed raw tuo with smoky pine, camphor, and stone fruit layers. Brisk, energizing, ideal for endurance tasks.",
+    "price_per_oz": 3.70,
+    "compounds": {
+      "caffeine": 68,
+      "catechin": 44,
+      "ginkgolide_b": 4,
+      "theabrownins": 95
+    },
+    "brewing": {
+      "temp_c": 94,
+      "time_sec": 120,
+      "amount_g": 5
+    },
+    "effects": [
+      { "effect": "physical_endurance", "intensity": 4, "onset_minutes": 18, "duration_minutes": 240 },
+      { "effect": "mental_clarity", "intensity": 4, "onset_minutes": 22, "duration_minutes": 230 },
+      { "effect": "stress_resilience", "intensity": 3, "onset_minutes": 28, "duration_minutes": 240 }
+    ]
   }
 ]

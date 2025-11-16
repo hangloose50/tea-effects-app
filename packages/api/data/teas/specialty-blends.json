@@ -1,0 +1,232 @@
+[
+  {
+    "name": "Earl Grey (Bergamot)",
+    "type": "specialty",
+    "origin": "Blend: Assam + Ceylon + Bergamot, UK",
+    "description": "Base of brisk Assam and bright Ceylon finished with cold-pressed Calabrian bergamot oil for citrus-driven alert calm.",
+    "price_per_oz": 3.20,
+    "compounds": {
+      "caffeine": 60,
+      "theaflavins": 100,
+      "linalool": 3,
+      "nerolidol": 1.5
+    },
+    "brewing": {
+      "temp_c": 95,
+      "time_sec": 210,
+      "amount_g": 3
+    },
+    "effects": [
+      { "effect": "alertness", "intensity": 4, "onset_minutes": 15, "duration_minutes": 210 },
+      { "effect": "mental_clarity", "intensity": 4, "onset_minutes": 20, "duration_minutes": 200 },
+      { "effect": "mood_lift", "intensity": 4, "onset_minutes": 25, "duration_minutes": 190 }
+    ]
+  },
+  {
+    "name": "Lady Grey",
+    "type": "specialty",
+    "origin": "Blend: Keemun + Citrus Peel",
+    "description": "Softer Earl Grey variant with orange peel and cornflower petals. Ideal for afternoon creative work.",
+    "price_per_oz": 3.40,
+    "compounds": {
+      "caffeine": 50,
+      "theaflavins": 85,
+      "hesperidin": 10,
+      "linalool": 2.2
+    },
+    "brewing": {
+      "temp_c": 94,
+      "time_sec": 210,
+      "amount_g": 3
+    },
+    "effects": [
+      { "effect": "creativity", "intensity": 4, "onset_minutes": 25, "duration_minutes": 200 },
+      { "effect": "mental_clarity", "intensity": 3, "onset_minutes": 20, "duration_minutes": 190 },
+      { "effect": "emotional_stability", "intensity": 3, "onset_minutes": 28, "duration_minutes": 200 }
+    ]
+  },
+  {
+    "name": "English Breakfast",
+    "type": "specialty",
+    "origin": "Blend: Assam + Ceylon + Kenyan",
+    "description": "Classic breakfast blend engineered for milk or straight service. Provides reliable morning drive and thermogenic support.",
+    "price_per_oz": 2.60,
+    "compounds": {
+      "caffeine": 70,
+      "thearubigins": 180,
+      "theaflavins": 90,
+      "citral": 1.2
+    },
+    "brewing": {
+      "temp_c": 96,
+      "time_sec": 210,
+      "amount_g": 3.5
+    },
+    "effects": [
+      { "effect": "energy_boost", "intensity": 5, "onset_minutes": 10, "duration_minutes": 220 },
+      { "effect": "physical_endurance", "intensity": 4, "onset_minutes": 20, "duration_minutes": 220 },
+      { "effect": "mental_stamina", "intensity": 4, "onset_minutes": 18, "duration_minutes": 230 }
+    ]
+  },
+  {
+    "name": "Irish Breakfast",
+    "type": "specialty",
+    "origin": "Blend: Assam-heavy",
+    "description": "Bold CTC-forward blend with malty punch and high caffeine for dawn-to-desk productivity.",
+    "price_per_oz": 2.30,
+    "compounds": {
+      "caffeine": 80,
+      "thearubigins": 190,
+      "theaflavins": 95,
+      "theobromine": 10
+    },
+    "brewing": {
+      "temp_c": 97,
+      "time_sec": 180,
+      "amount_g": 3.5
+    },
+    "effects": [
+      { "effect": "energy_boost", "intensity": 5, "onset_minutes": 8, "duration_minutes": 220 },
+      { "effect": "alertness", "intensity": 5, "onset_minutes": 12, "duration_minutes": 210 },
+      { "effect": "motivation_support", "intensity": 4, "onset_minutes": 18, "duration_minutes": 210 }
+    ]
+  },
+  {
+    "name": "Russian Caravan",
+    "type": "specialty",
+    "origin": "Blend: Lapsang + Keemun + Oolong",
+    "description": "Historic caravan blend layering pine smoke, cocoa, and dried fruit. Grounds the nervous system while sparking creativity.",
+    "price_per_oz": 3.80,
+    "compounds": {
+      "caffeine": 52,
+      "theaflavins": 80,
+      "beta_pinene": 2,
+      "nerolidol": 1.3
+    },
+    "brewing": {
+      "temp_c": 95,
+      "time_sec": 210,
+      "amount_g": 3.5
+    },
+    "effects": [
+      { "effect": "grounding", "intensity": 5, "onset_minutes": 20, "duration_minutes": 240 },
+      { "effect": "creativity", "intensity": 4, "onset_minutes": 30, "duration_minutes": 200 },
+      { "effect": "stress_resilience", "intensity": 4, "onset_minutes": 25, "duration_minutes": 220 }
+    ]
+  },
+  {
+    "name": "Masala Chai",
+    "type": "specialty",
+    "origin": "Blend: Assam CTC + spices",
+    "description": "Stone-ground masala of cardamom, ginger, clove, and black pepper atop malty Assam. Warming, metabolic, and mood-elevating.",
+    "price_per_oz": 2.50,
+    "compounds": {
+      "caffeine": 65,
+      "thearubigins": 170,
+      "cinnamaldehyde": 8,
+      "catechin": 30
+    },
+    "brewing": {
+      "temp_c": 97,
+      "time_sec": 240,
+      "amount_g": 4
+    },
+    "effects": [
+      { "effect": "energy_boost", "intensity": 4, "onset_minutes": 12, "duration_minutes": 210 },
+      { "effect": "thermogenesis", "intensity": 4, "onset_minutes": 25, "duration_minutes": 240 },
+      { "effect": "digestion", "intensity": 4, "onset_minutes": 30, "duration_minutes": 220 }
+    ]
+  },
+  {
+    "name": "Moroccan Mint",
+    "type": "specialty",
+    "origin": "Blend: Gunpowder Green + Spearmint",
+    "description": "North African staple combining brisk gunpowder green tea with fresh spearmint. Provides bright clarity and digestive relief.",
+    "price_per_oz": 2.10,
+    "compounds": {
+      "caffeine": 30,
+      "l-theanine": 18,
+      "menthol": 35,
+      "catechin": 25
+    },
+    "brewing": {
+      "temp_c": 85,
+      "time_sec": 180,
+      "amount_g": 4
+    },
+    "effects": [
+      { "effect": "mental_clarity", "intensity": 4, "onset_minutes": 18, "duration_minutes": 200 },
+      { "effect": "digestion", "intensity": 4, "onset_minutes": 25, "duration_minutes": 210 },
+      { "effect": "mood_lift", "intensity": 3, "onset_minutes": 22, "duration_minutes": 190 }
+    ]
+  },
+  {
+    "name": "Genmaicha Matcha Blend",
+    "type": "specialty",
+    "origin": "Japan",
+    "description": "Toasted rice sencha dusted with ceremonial matcha for creamy texture and turbo-charged theanine.",
+    "price_per_oz": 3.60,
+    "compounds": {
+      "caffeine": 35,
+      "l-theanine": 34,
+      "EGCG": 110,
+      "gallic_acid": 18
+    },
+    "brewing": {
+      "temp_c": 80,
+      "time_sec": 120,
+      "amount_g": 4
+    },
+    "effects": [
+      { "effect": "sustained_focus", "intensity": 4, "onset_minutes": 22, "duration_minutes": 210 },
+      { "effect": "mental_clarity", "intensity": 4, "onset_minutes": 20, "duration_minutes": 200 },
+      { "effect": "comfort", "intensity": 4, "onset_minutes": 15, "duration_minutes": 190 }
+    ]
+  },
+  {
+    "name": "Butterfly Pea & Lemongrass",
+    "type": "specialty",
+    "origin": "Thailand",
+    "description": "Caffeine-free indigo petals blended with lemongrass for vivid color-changing antioxidant tonic.",
+    "price_per_oz": 2.70,
+    "compounds": {
+      "caffeine": 0,
+      "anthocyanins": 55,
+      "citral": 10,
+      "linalool": 8
+    },
+    "brewing": {
+      "temp_c": 95,
+      "time_sec": 240,
+      "amount_g": 3
+    },
+    "effects": [
+      { "effect": "antioxidant_defense", "intensity": 4, "onset_minutes": 35, "duration_minutes": 320 },
+      { "effect": "mood_lift", "intensity": 4, "onset_minutes": 25, "duration_minutes": 200 },
+      { "effect": "relaxation", "intensity": 3, "onset_minutes": 20, "duration_minutes": 190 }
+    ]
+  },
+  {
+    "name": "Chrysanthemum Pu-erh Digestif",
+    "type": "specialty",
+    "origin": "Hong Kong",
+    "description": "Sweet chrysanthemum petals blended with mellow ripe pu-erh for after-meal comfort.",
+    "price_per_oz": 3.00,
+    "compounds": {
+      "caffeine": 30,
+      "theabrownins": 150,
+      "polysaccharides": 120,
+      "luteolin": 12
+    },
+    "brewing": {
+      "temp_c": 98,
+      "time_sec": 210,
+      "amount_g": 4
+    },
+    "effects": [
+      { "effect": "digestive_health", "intensity": 5, "onset_minutes": 25, "duration_minutes": 240 },
+      { "effect": "calm", "intensity": 3, "onset_minutes": 20, "duration_minutes": 200 },
+      { "effect": "antioxidant_defense", "intensity": 4, "onset_minutes": 40, "duration_minutes": 320 }
+    ]
+  }
+]

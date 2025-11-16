@@ -65,7 +65,7 @@
       { "effect": "calm", "intensity": 4, "onset_minutes": 30, "duration_minutes": 220 },
       { "effect": "grounding", "intensity": 4, "onset_minutes": 25, "duration_minutes": 200 },
       { "effect": "mood_lift", "intensity": 3, "onset_minutes": 40, "duration_minutes": 180 },
-      { "effect": "immune", "intensity": 3, "onset_minutes": 60, "duration_minutes": 300 }
+      { "effect": "immune_support", "intensity": 3, "onset_minutes": 60, "duration_minutes": 300 }
     ]
   },
   {
@@ -88,6 +88,397 @@
       { "effect": "stress_relief", "intensity": 4, "onset_minutes": 30, "duration_minutes": 190 },
       { "effect": "mood_lift", "intensity": 4, "onset_minutes": 35, "duration_minutes": 200 },
       { "effect": "relaxation", "intensity": 3, "onset_minutes": 30, "duration_minutes": 170 }
+    ]
+  },
+  {
+    "name": "Egyptian Blue Lotus",
+    "type": "herbal",
+    "origin": "Nile Delta, Egypt",
+    "description": "Sacred water lily petals prized for meditative calm and dream preparation. Naturally aromatic and caffeine-free.",
+    "price_per_oz": 4.80,
+    "compounds": {
+      "caffeine": 0,
+      "linalool": 8,
+      "nerolidol": 4,
+      "taurine": 12
+    },
+    "brewing": {
+      "temp_c": 95,
+      "time_sec": 300,
+      "amount_g": 3
+    },
+    "effects": [
+      { "effect": "meditation", "intensity": 4, "onset_minutes": 30, "duration_minutes": 210 },
+      { "effect": "relaxation", "intensity": 4, "onset_minutes": 25, "duration_minutes": 200 },
+      { "effect": "sleep_prep", "intensity": 3, "onset_minutes": 40, "duration_minutes": 240 }
+    ]
+  },
+  {
+    "name": "Valerian Root",
+    "type": "herbal",
+    "origin": "Central Europe",
+    "description": "Traditional sedative root rich in GABA analogues. Supports deep sleep onset and reduces anxious loops.",
+    "price_per_oz": 3.00,
+    "compounds": {
+      "caffeine": 0,
+      "GABA": 25,
+      "rosmarinic_acid": 12,
+      "taurine": 10
+    },
+    "brewing": {
+      "temp_c": 98,
+      "time_sec": 480,
+      "amount_g": 4
+    },
+    "effects": [
+      { "effect": "sleep_prep", "intensity": 5, "onset_minutes": 35, "duration_minutes": 300 },
+      { "effect": "anxiety_reduction", "intensity": 4, "onset_minutes": 25, "duration_minutes": 240 },
+      { "effect": "calm", "intensity": 4, "onset_minutes": 28, "duration_minutes": 250 }
+    ]
+  },
+  {
+    "name": "Passionflower",
+    "type": "herbal",
+    "origin": "South America",
+    "description": "Passiflora aerial parts steeped for GABAergic calm and gentle mood stabilization.",
+    "price_per_oz": 3.20,
+    "compounds": {
+      "caffeine": 0,
+      "GABA": 20,
+      "apigenin": 25,
+      "luteolin": 8
+    },
+    "brewing": {
+      "temp_c": 95,
+      "time_sec": 420,
+      "amount_g": 3
+    },
+    "effects": [
+      { "effect": "anxiety_reduction", "intensity": 4, "onset_minutes": 25, "duration_minutes": 220 },
+      { "effect": "emotional_stability", "intensity": 3, "onset_minutes": 30, "duration_minutes": 210 },
+      { "effect": "sleep_prep", "intensity": 3, "onset_minutes": 40, "duration_minutes": 240 }
+    ]
+  },
+  {
+    "name": "Skullcap (Scutellaria lateriflora)",
+    "type": "herbal",
+    "origin": "North America",
+    "description": "Classic nervine tonic that soothes the mind while preserving clarity.",
+    "price_per_oz": 2.90,
+    "compounds": {
+      "caffeine": 0,
+      "GABA": 15,
+      "rosmarinic_acid": 8,
+      "luteolin": 6
+    },
+    "brewing": {
+      "temp_c": 96,
+      "time_sec": 420,
+      "amount_g": 3
+    },
+    "effects": [
+      { "effect": "calm", "intensity": 4, "onset_minutes": 25, "duration_minutes": 210 },
+      { "effect": "stress_relief", "intensity": 4, "onset_minutes": 30, "duration_minutes": 220 },
+      { "effect": "mental_clarity", "intensity": 2, "onset_minutes": 35, "duration_minutes": 200 }
+    ]
+  },
+  {
+    "name": "Lavender Buds",
+    "type": "herbal",
+    "origin": "Provence, France",
+    "description": "Steam-dried lavender buds with high linalool content. Excellent for evening tea or blend accents.",
+    "price_per_oz": 2.40,
+    "compounds": {
+      "caffeine": 0,
+      "linalool": 40,
+      "alpha_terpineol": 20,
+      "citral": 6
+    },
+    "brewing": {
+      "temp_c": 95,
+      "time_sec": 300,
+      "amount_g": 2
+    },
+    "effects": [
+      { "effect": "relaxation", "intensity": 5, "onset_minutes": 15, "duration_minutes": 200 },
+      { "effect": "anxiety_reduction", "intensity": 4, "onset_minutes": 18, "duration_minutes": 190 },
+      { "effect": "emotional_stability", "intensity": 3, "onset_minutes": 25, "duration_minutes": 200 }
+    ]
+  },
+  {
+    "name": "Rooibos",
+    "type": "herbal",
+    "origin": "Cederberg, South Africa",
+    "description": "Naturally sweet red bush with robust antioxidant profile and zero caffeine.",
+    "price_per_oz": 1.80,
+    "compounds": {
+      "caffeine": 0,
+      "quercetin": 30,
+      "rutin": 25,
+      "kaempferol": 10
+    },
+    "brewing": {
+      "temp_c": 100,
+      "time_sec": 300,
+      "amount_g": 3
+    },
+    "effects": [
+      { "effect": "antioxidant_defense", "intensity": 4, "onset_minutes": 40, "duration_minutes": 360 },
+      { "effect": "immune_support", "intensity": 3, "onset_minutes": 45, "duration_minutes": 320 },
+      { "effect": "calm", "intensity": 3, "onset_minutes": 20, "duration_minutes": 200 }
+    ]
+  },
+  {
+    "name": "Honeybush",
+    "type": "herbal",
+    "origin": "Eastern Cape, South Africa",
+    "description": "Caffeine-free legume with honeyed aroma and steady antioxidant support.",
+    "price_per_oz": 1.90,
+    "compounds": {
+      "caffeine": 0,
+      "quercetin": 18,
+      "rutin": 15,
+      "kaempferol": 12
+    },
+    "brewing": {
+      "temp_c": 98,
+      "time_sec": 300,
+      "amount_g": 3
+    },
+    "effects": [
+      { "effect": "calm", "intensity": 4, "onset_minutes": 22, "duration_minutes": 210 },
+      { "effect": "emotional_stability", "intensity": 4, "onset_minutes": 28, "duration_minutes": 220 },
+      { "effect": "antioxidant_defense", "intensity": 3, "onset_minutes": 40, "duration_minutes": 300 }
+    ]
+  },
+  {
+    "name": "Hibiscus Sabdariffa",
+    "type": "herbal",
+    "origin": "Sudan",
+    "description": "Tart crimson calyces loaded with anthocyanins for cardiovascular support and cooling hydration.",
+    "price_per_oz": 2.20,
+    "compounds": {
+      "caffeine": 0,
+      "anthocyanins": 60,
+      "chlorogenic_acid": 30,
+      "quercetin": 20
+    },
+    "brewing": {
+      "temp_c": 98,
+      "time_sec": 300,
+      "amount_g": 3
+    },
+    "effects": [
+      { "effect": "cardiovascular_support", "intensity": 4, "onset_minutes": 40, "duration_minutes": 300 },
+      { "effect": "thermogenesis", "intensity": 3, "onset_minutes": 35, "duration_minutes": 240 },
+      { "effect": "mood_lift", "intensity": 3, "onset_minutes": 25, "duration_minutes": 210 }
+    ]
+  },
+  {
+    "name": "Yerba Mate",
+    "type": "herbal",
+    "origin": "Misiones, Argentina",
+    "description": "South American holly leaf brew delivering mateine-driven alertness with chlorogenic acid antioxidants.",
+    "price_per_oz": 2.60,
+    "compounds": {
+      "caffeine": 65,
+      "mateine": 65,
+      "chlorogenic_acid": 40,
+      "theobromine": 12
+    },
+    "brewing": {
+      "temp_c": 85,
+      "time_sec": 240,
+      "amount_g": 5
+    },
+    "effects": [
+      { "effect": "energy_boost", "intensity": 5, "onset_minutes": 10, "duration_minutes": 210 },
+      { "effect": "physical_endurance", "intensity": 4, "onset_minutes": 20, "duration_minutes": 220 },
+      { "effect": "mental_stamina", "intensity": 4, "onset_minutes": 18, "duration_minutes": 230 }
+    ]
+  },
+  {
+    "name": "Guayusa",
+    "type": "herbal",
+    "origin": "Ecuadorian Amazon",
+    "description": "Shade-grown holly species with naturally sweet profile for pre-dawn creative work.",
+    "price_per_oz": 3.10,
+    "compounds": {
+      "caffeine": 60,
+      "theobromine": 18,
+      "taurine": 20,
+      "chlorogenic_acid": 25
+    },
+    "brewing": {
+      "temp_c": 90,
+      "time_sec": 240,
+      "amount_g": 4
+    },
+    "effects": [
+      { "effect": "alertness", "intensity": 5, "onset_minutes": 12, "duration_minutes": 210 },
+      { "effect": "mental_stamina", "intensity": 4, "onset_minutes": 18, "duration_minutes": 220 },
+      { "effect": "motivation_support", "intensity": 4, "onset_minutes": 20, "duration_minutes": 210 }
+    ]
+  },
+  {
+    "name": "Korean Red Ginseng Slices",
+    "type": "herbal",
+    "origin": "Geumsan, South Korea",
+    "description": "Steamed and cured Panax ginseng brewed as a tonic. Elevates endurance and immune resilience.",
+    "price_per_oz": 8.20,
+    "compounds": {
+      "caffeine": 0,
+      "eleutheroside_e": 12,
+      "polysaccharides": 90,
+      "taurine": 15
+    },
+    "brewing": {
+      "temp_c": 95,
+      "time_sec": 360,
+      "amount_g": 4
+    },
+    "effects": [
+      { "effect": "physical_endurance", "intensity": 5, "onset_minutes": 35, "duration_minutes": 260 },
+      { "effect": "immune_support", "intensity": 4, "onset_minutes": 40, "duration_minutes": 320 },
+      { "effect": "mental_stamina", "intensity": 4, "onset_minutes": 30, "duration_minutes": 260 }
+    ]
+  },
+  {
+    "name": "Rhodiola Rosea",
+    "type": "herbal",
+    "origin": "Altai Mountains, Russia",
+    "description": "Adaptogenic root rich in salidroside. Smooths stress response while sharpening focus.",
+    "price_per_oz": 5.60,
+    "compounds": {
+      "caffeine": 0,
+      "salidroside": 25,
+      "rosmarinic_acid": 10,
+      "taurine": 10
+    },
+    "brewing": {
+      "temp_c": 95,
+      "time_sec": 420,
+      "amount_g": 3
+    },
+    "effects": [
+      { "effect": "stress_resilience", "intensity": 5, "onset_minutes": 30, "duration_minutes": 240 },
+      { "effect": "mental_stamina", "intensity": 4, "onset_minutes": 35, "duration_minutes": 230 },
+      { "effect": "mood_lift", "intensity": 3, "onset_minutes": 28, "duration_minutes": 220 }
+    ]
+  },
+  {
+    "name": "Bacopa Monnieri",
+    "type": "herbal",
+    "origin": "Kerala, India",
+    "description": "Ayurvedic memory tonic that enhances synaptic communication over consistent use.",
+    "price_per_oz": 3.80,
+    "compounds": {
+      "caffeine": 0,
+      "bacoside_a": 35,
+      "bacoside_b": 20,
+      "asiaticoside": 10
+    },
+    "brewing": {
+      "temp_c": 95,
+      "time_sec": 360,
+      "amount_g": 3
+    },
+    "effects": [
+      { "effect": "memory_enhancement", "intensity": 4, "onset_minutes": 40, "duration_minutes": 300 },
+      { "effect": "working_memory", "intensity": 4, "onset_minutes": 35, "duration_minutes": 280 },
+      { "effect": "mental_stamina", "intensity": 3, "onset_minutes": 30, "duration_minutes": 260 }
+    ]
+  },
+  {
+    "name": "Ginkgo Biloba Leaf",
+    "type": "herbal",
+    "origin": "Zhejiang, China",
+    "description": "Fan-shaped leaves gently dried to preserve ginkgolides. Supports cerebral perfusion and protects neurons.",
+    "price_per_oz": 3.20,
+    "compounds": {
+      "caffeine": 0,
+      "ginkgolide_a": 16,
+      "ginkgolide_b": 10,
+      "bilobalide": 12
+    },
+    "brewing": {
+      "temp_c": 95,
+      "time_sec": 300,
+      "amount_g": 3
+    },
+    "effects": [
+      { "effect": "memory_enhancement", "intensity": 4, "onset_minutes": 35, "duration_minutes": 260 },
+      { "effect": "cardiovascular_support", "intensity": 3, "onset_minutes": 40, "duration_minutes": 280 },
+      { "effect": "neuroprotection", "intensity": 4, "onset_minutes": 45, "duration_minutes": 320 }
+    ]
+  },
+  {
+    "name": "Lion's Mane & Reishi Blend",
+    "type": "herbal",
+    "origin": "Jilin, China",
+    "description": "Dual-mushroom decoction delivering NGF-supportive hericenones plus immune-modulating polysaccharides.",
+    "price_per_oz": 6.40,
+    "compounds": {
+      "caffeine": 0,
+      "hericenone_c": 20,
+      "polysaccharides": 140,
+      "taurine": 10
+    },
+    "brewing": {
+      "temp_c": 96,
+      "time_sec": 420,
+      "amount_g": 3
+    },
+    "effects": [
+      { "effect": "memory_enhancement", "intensity": 3, "onset_minutes": 45, "duration_minutes": 320 },
+      { "effect": "immune_support", "intensity": 4, "onset_minutes": 40, "duration_minutes": 360 },
+      { "effect": "emotional_stability", "intensity": 4, "onset_minutes": 35, "duration_minutes": 300 }
+    ]
+  },
+  {
+    "name": "Ashwagandha Root Chai",
+    "type": "herbal",
+    "origin": "Rajasthan, India",
+    "description": "Withania root simmered with warming spices. Withanolides tame cortisol while cinnamon aids digestion.",
+    "price_per_oz": 3.50,
+    "compounds": {
+      "caffeine": 0,
+      "withaferin_a": 15,
+      "withanolide_a": 12,
+      "cinnamaldehyde": 6
+    },
+    "brewing": {
+      "temp_c": 98,
+      "time_sec": 420,
+      "amount_g": 4
+    },
+    "effects": [
+      { "effect": "stress_resilience", "intensity": 5, "onset_minutes": 30, "duration_minutes": 280 },
+      { "effect": "anxiety_reduction", "intensity": 4, "onset_minutes": 28, "duration_minutes": 260 },
+      { "effect": "digestion", "intensity": 3, "onset_minutes": 35, "duration_minutes": 240 }
+    ]
+  },
+  {
+    "name": "Gotu Kola (Centella Asiatica)",
+    "type": "herbal",
+    "origin": "Sri Lanka",
+    "description": "Cooling Ayurvedic herb that supports collagen synthesis and calm focus without caffeine.",
+    "price_per_oz": 2.90,
+    "compounds": {
+      "caffeine": 0,
+      "asiaticoside": 28,
+      "asiatic_acid": 18,
+      "linalool": 4
+    },
+    "brewing": {
+      "temp_c": 95,
+      "time_sec": 300,
+      "amount_g": 3
+    },
+    "effects": [
+      { "effect": "calm", "intensity": 4, "onset_minutes": 25, "duration_minutes": 230 },
+      { "effect": "learning_speed", "intensity": 3, "onset_minutes": 35, "duration_minutes": 240 },
+      { "effect": "emotional_stability", "intensity": 3, "onset_minutes": 30, "duration_minutes": 220 }
     ]
   }
 ]

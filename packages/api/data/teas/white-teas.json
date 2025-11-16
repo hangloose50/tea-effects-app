@@ -1,0 +1,186 @@
+[
+  {
+    "name": "Silver Needle (Early Spring)",
+    "type": "white",
+    "origin": "Fuding, Fujian, China",
+    "description": "First-pick buds dried under filtered sunlight. Exceptionally high in L-theanine and catechins for gentle yet luminous focus.",
+    "price_per_oz": 9.50,
+    "compounds": {
+      "caffeine": 35,
+      "l-theanine": 38,
+      "EGCG": 90,
+      "catechin": 32
+    },
+    "brewing": {
+      "temp_c": 80,
+      "time_sec": 180,
+      "amount_g": 4
+    },
+    "effects": [
+      { "effect": "mental_clarity", "intensity": 4, "onset_minutes": 25, "duration_minutes": 210 },
+      { "effect": "creativity", "intensity": 4, "onset_minutes": 30, "duration_minutes": 200 },
+      { "effect": "calm", "intensity": 4, "onset_minutes": 20, "duration_minutes": 220 }
+    ]
+  },
+  {
+    "name": "Silver Needle (Late Spring)",
+    "type": "white",
+    "origin": "Zhenghe, Fujian, China",
+    "description": "Later flush with slightly higher caffeine and apricot sweetness. Ideal for afternoon reflection and writing.",
+    "price_per_oz": 7.80,
+    "compounds": {
+      "caffeine": 40,
+      "l-theanine": 32,
+      "EGCG": 80,
+      "rutin": 8
+    },
+    "brewing": {
+      "temp_c": 82,
+      "time_sec": 180,
+      "amount_g": 4
+    },
+    "effects": [
+      { "effect": "mental_stamina", "intensity": 3, "onset_minutes": 28, "duration_minutes": 210 },
+      { "effect": "mood_lift", "intensity": 4, "onset_minutes": 25, "duration_minutes": 200 },
+      { "effect": "antioxidant_defense", "intensity": 4, "onset_minutes": 45, "duration_minutes": 320 }
+    ]
+  },
+  {
+    "name": "White Peony (Bai Mu Dan)",
+    "type": "white",
+    "origin": "Jianyang, Fujian, China",
+    "description": "Two leaves and a bud with floral, honeydew sweetness. Balanced caffeine-to-theanine ratio keeps energy calm and steady.",
+    "price_per_oz": 4.60,
+    "compounds": {
+      "caffeine": 30,
+      "l-theanine": 28,
+      "EGCG": 75,
+      "kaempferol": 7
+    },
+    "brewing": {
+      "temp_c": 85,
+      "time_sec": 210,
+      "amount_g": 4
+    },
+    "effects": [
+      { "effect": "calm", "intensity": 4, "onset_minutes": 25, "duration_minutes": 220 },
+      { "effect": "emotional_stability", "intensity": 3, "onset_minutes": 30, "duration_minutes": 210 },
+      { "effect": "digestive_health", "intensity": 3, "onset_minutes": 35, "duration_minutes": 230 }
+    ]
+  },
+  {
+    "name": "Tribute Eyebrow (Gong Mei)",
+    "type": "white",
+    "origin": "Fuding, China",
+    "description": "Later-season leaves sun-dried to concentrate minerals. Soft caramelized notes help settle the nervous system and support immunity.",
+    "price_per_oz": 3.10,
+    "compounds": {
+      "caffeine": 28,
+      "l-theanine": 22,
+      "EGCG": 60,
+      "polysaccharides": 60
+    },
+    "brewing": {
+      "temp_c": 90,
+      "time_sec": 240,
+      "amount_g": 4
+    },
+    "effects": [
+      { "effect": "immune_support", "intensity": 4, "onset_minutes": 45, "duration_minutes": 360 },
+      { "effect": "calm", "intensity": 3, "onset_minutes": 25, "duration_minutes": 230 },
+      { "effect": "grounding", "intensity": 3, "onset_minutes": 30, "duration_minutes": 240 }
+    ]
+  },
+  {
+    "name": "Long Life Eyebrow (Shou Mei)",
+    "type": "white",
+    "origin": "Fuding, China",
+    "description": "Mature leaves with dried fruit and spice notes. Excellent for afternoon creative work and gentle digestion support.",
+    "price_per_oz": 2.70,
+    "compounds": {
+      "caffeine": 25,
+      "l-theanine": 20,
+      "EGCG": 55,
+      "chlorogenic_acid": 12
+    },
+    "brewing": {
+      "temp_c": 92,
+      "time_sec": 240,
+      "amount_g": 4.5
+    },
+    "effects": [
+      { "effect": "creativity", "intensity": 3, "onset_minutes": 30, "duration_minutes": 210 },
+      { "effect": "digestive_health", "intensity": 4, "onset_minutes": 35, "duration_minutes": 240 },
+      { "effect": "emotional_stability", "intensity": 3, "onset_minutes": 32, "duration_minutes": 220 }
+    ]
+  },
+  {
+    "name": "Moonlight White (Yue Guang Bai)",
+    "type": "white",
+    "origin": "Jinggu, Yunnan, China",
+    "description": "Night-withered large leaf white tea with wild honey and lychee notes. Higher theobromine and GABA make it perfect for evening reflection.",
+    "price_per_oz": 4.90,
+    "compounds": {
+      "caffeine": 32,
+      "GABA": 24,
+      "theobromine": 15,
+      "linalool": 2
+    },
+    "brewing": {
+      "temp_c": 88,
+      "time_sec": 210,
+      "amount_g": 4
+    },
+    "effects": [
+      { "effect": "relaxation", "intensity": 5, "onset_minutes": 25, "duration_minutes": 230 },
+      { "effect": "anxiety_reduction", "intensity": 4, "onset_minutes": 28, "duration_minutes": 220 },
+      { "effect": "sleep_prep", "intensity": 4, "onset_minutes": 45, "duration_minutes": 300 }
+    ]
+  },
+  {
+    "name": "Darjeeling White (Giddapahar)",
+    "type": "white",
+    "origin": "Darjeeling, India",
+    "description": "Himalayan bud-and-leaf white with muscatel perfume. Delivers sparkling mental clarity with mild caffeine load.",
+    "price_per_oz": 6.10,
+    "compounds": {
+      "caffeine": 33,
+      "EGCG": 70,
+      "myricetin": 6,
+      "linalool": 2.5
+    },
+    "brewing": {
+      "temp_c": 82,
+      "time_sec": 180,
+      "amount_g": 4
+    },
+    "effects": [
+      { "effect": "mental_clarity", "intensity": 4, "onset_minutes": 22, "duration_minutes": 200 },
+      { "effect": "creativity", "intensity": 4, "onset_minutes": 28, "duration_minutes": 190 },
+      { "effect": "stress_resilience", "intensity": 3, "onset_minutes": 30, "duration_minutes": 210 }
+    ]
+  },
+  {
+    "name": "Aged White (10 Year Gong Mei)",
+    "type": "white",
+    "origin": "Fuding, China",
+    "description": "Cellared for a decade, developing jujube sweetness and thick texture. Polysaccharide-rich liquor nourishes gut/brain axis and calms nerves.",
+    "price_per_oz": 7.20,
+    "compounds": {
+      "caffeine": 20,
+      "polysaccharides": 120,
+      "theabrownins": 60,
+      "rosmarinic_acid": 8
+    },
+    "brewing": {
+      "temp_c": 95,
+      "time_sec": 240,
+      "amount_g": 5
+    },
+    "effects": [
+      { "effect": "grounding", "intensity": 4, "onset_minutes": 25, "duration_minutes": 260 },
+      { "effect": "immune_support", "intensity": 4, "onset_minutes": 45, "duration_minutes": 360 },
+      { "effect": "emotional_stability", "intensity": 4, "onset_minutes": 30, "duration_minutes": 240 }
+    ]
+  }
+]
