@@ -10,7 +10,7 @@ const supabase = SupabaseService.getInstance();
  */
 router.get('/', async (req: Request, res: Response) => {
   try {
-    const { type, _effect } = req.query;
+    const { type } = req.query;
 
     let query = supabase.from('teas').select(`
       *,

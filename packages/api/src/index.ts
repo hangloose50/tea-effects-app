@@ -37,7 +37,7 @@ app.use(morgan('dev')); // Logging
 // HEALTH CHECK
 // ============================================
 
-app.get('/health', async (req: Request, res: Response) => {
+app.get('/health', async (_req: Request, res: Response) => {
   try {
     const mistral = new MistralClient();
     const ollamaHealthy = await mistral.healthCheck();
@@ -70,7 +70,7 @@ app.use('/api/tracking', trackingRouter);
 app.use('/api/rag', ragRouter);
 
 // Root route
-app.get('/', (req: Request, res: Response) => {
+app.get('/', (_req: Request, res: Response) => {
   res.json({
     name: 'Tea Effects API',
     version: '1.0.0',
@@ -100,7 +100,7 @@ app.use((req: Request, res: Response) => {
 });
 
 // Global error handler
-app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
+app.use((err: Error, _req: Request, res: Response, _next: NextFunction) => {
   console.error('Error:', err);
 
   res.status(500).json({

@@ -9,7 +9,7 @@ const effectEngine = new EffectEngine();
  * POST /api/recommendations
  * Get personalized tea recommendations based on desired effects
  */
-router.post('/', async (_req: Request, res: Response) => {
+router.post('/', async (req: Request, res: Response) => {
   try {
     const request: RecommendationRequest = req.body;
 
@@ -31,7 +31,7 @@ router.post('/', async (_req: Request, res: Response) => {
     // Get recommendations
     const recommendations = await effectEngine.recommend(request);
 
-    res.json({
+    return res.json({
       success: true,
       request: {
         desired_effect: request.desired_effect,
@@ -42,7 +42,7 @@ router.post('/', async (_req: Request, res: Response) => {
     });
   } catch (error: any) {
     console.error('Recommendation error:', error);
-    res.status(500).json({
+    return res.status(500).json({
       error: 'Internal Server Error',
       message: error.message
     });
@@ -53,7 +53,7 @@ router.post('/', async (_req: Request, res: Response) => {
  * GET /api/recommendations/effects
  * Get list of available effects
  */
-router.get('/effects', async (req: Request, res: Response) => {
+router.get('/effects', async (_req: Request, res: Response) => {
   try {
     // This would normally come from the database
     // For now, return a static list
@@ -77,7 +77,7 @@ router.get('/effects', async (req: Request, res: Response) => {
       effects
     });
   } catch (error: any) {
-    res.status(500).json({
+    return res.status(500).json({
       error: 'Internal Server Error',
       message: error.message
     });

@@ -1,4 +1,4 @@
-import { AIPromptContext, UserIntent } from '../../models/types';
+import { AIPromptContext } from '../../models/types';
 
 export class PromptTemplates {
   /**

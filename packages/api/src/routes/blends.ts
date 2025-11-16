@@ -23,13 +23,13 @@ router.post('/', async (req: Request, res: Response) => {
 
     const blend = await blendEngine.createBlend(request, userId);
 
-    res.json({
+    return res.json({
       success: true,
       blend
     });
   } catch (error: any) {
     console.error('Blend creation error:', error);
-    res.status(500).json({
+    return res.status(500).json({
       error: 'Internal Server Error',
       message: error.message
     });

@@ -5,9 +5,8 @@ import PromptTemplates from '../ai/PromptTemplates';
 import {
   BlendCreationRequest,
   BlendCreationResponse,
-  Blend,
-  BlendComponent,
-  TeaWithDetails
+  TeaWithDetails,
+  CompoundBreakdown
 } from '../../models/types';
 
 class BlendEngine {
@@ -205,10 +204,12 @@ class BlendEngine {
   private calculateTotalCompounds(
     components: any[],
     teas: TeaWithDetails[]
-  ): { caffeine_mg: number; l_theanine_mg: number; [key: string]: number } {
-    const totals: any = {
+  ): CompoundBreakdown {
+    const totals: CompoundBreakdown = {
       caffeine_mg: 0,
-      l_theanine_mg: 0
+      l_theanine_mg: 0,
+      catechins_mg: 0,
+      other: {}
     };
 
     for (const component of components) {
@@ -218,13 +219,20 @@ class BlendEngine {
       const ratio = component.ratio / 100; // Convert percentage to decimal
 
       for (const compound of tea.compounds) {
-        const key = compound.name === 'l-theanine' ? 'l_theanine_mg' : `${compound.name}_mg`;
         const amount = (compound.amount_mg || 0) * ratio;
 
-        if (totals[key]) {
-          totals[key] += amount;
+        if (compound.name === 'caffeine') {
+          totals.caffeine_mg += amount;
+        } else if (compound.name === 'l-theanine') {
+          totals.l_theanine_mg += amount;
+        } else if (compound.name === 'EGCG' || compound.name === 'ECG' || compound.name === 'EGC' || compound.name === 'catechin') {
+          totals.catechins_mg = (totals.catechins_mg || 0) + amount;
         } else {
-          totals[key] = amount;
+          const key = `${compound.name}_mg`;
+          if (!totals.other[key]) {
+            totals.other[key] = 0;
+          }
+          totals.other[key] += amount;
         }
       }
     }

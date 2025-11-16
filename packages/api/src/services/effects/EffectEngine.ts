@@ -5,7 +5,6 @@ import PromptTemplates from '../ai/PromptTemplates';
 import {
   RecommendationRequest,
   TeaRecommendation,
-  Tea,
   TeaWithDetails,
   AIPromptContext
 } from '../../models/types';
